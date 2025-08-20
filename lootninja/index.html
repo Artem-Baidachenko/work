@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Steppe-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/MonumentExtended-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1755690987346"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755690987346">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a href="index.html" class="header__logo">
+						<img src="./assets/img/logo-icon.svg" alt="Image">
+						<span>LOOT NINJA</span>
+					</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Home Page</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">About Us</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div data-fls-dynamic=".menu__body, 767.98" class="header__actions">
+						<a href="#" data-fls-button="" class="header__button button">Become a partner!</a>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/hero-image-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/hero-image-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/hero-image.webp">
+							</picture>
+						</div>
+						<div class="hero__content">
+							<div class="hero__label">
+								Are you losing millions in the CIS, EE, India, LATAM due to the gray market and payment barriers?
+							</div>
+							<h1 class="hero__title">
+								Stop losing millions. Scale your
+								<span class="decor"></span>
+								game where others can't
+							</h1>
+						</div>
+					</div>
+				</section>
+				<section class="page__about about">
+					<div class="about__container">
+						<h2 class="about__title">ABOUT US:</h2>
+						<div class="about__text">
+							<p>
+								We help game development companies scale up in markets that are typically considered “difficult” — the CIS, Eastern Europe, India, and Latin America. Our focus is on making monetization accessible to as many users as possible and removing barriers that limit growth.
+							</p>
+							<p>
+								We combine marketing expertise, local knowledge, and technical solutions to create an effective ecosystem for partners. This allows companies to bring their products to regions where standard tools do not work or work with significant limitations.
+							</p>
+						</div>
+					</div>
+				</section>
+				<div class="page__counters counters">
+					<div class="counters__container">
+						<div data-fls-watcher="" class="counters__counter counter">
+							<div class="counter__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter__value counter__value--1">35</div>
+								<div class="counter__description">Average revenue growth of partners during the first 3 months of integration.</div>
+							</div>
+							<div class="counter__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter__value counter__value--2">1000</div>
+								<div class="counter__description">Local influencers & esports teams boost regional game promotion — we deliver.</div>
+							</div>
+							<div class="counter__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter__value counter__value--3">97</div>
+								<div class="counter__description">Own investments in marketing, esports & payments to scale partner games.</div>
+							</div>
+							<div class="counter__items">
+								<div data-fls-digcounter="" data-fls-digcounter-speed="1200" class="counter__value counter__value--4">5-10</div>
+								<div class="counter__description">Commission for the publisher, instead of the standard 30% of global systems.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="page__additional additional">
+					<div class="additional__container">
+						<h2 class="additional__title">ADDITIONAL:</h2>
+						<div class="additional__text">
+							<p>
+								We integrate alternative payment channels, adapt marketing strategies to local specifics, and open up access to audiences that often remain “outside the system.” We pay special attention to working with local communities and influencers to support the natural development of the game within the market.
+							</p>
+							<p>
+								Our value to our partners lies not only in technological solutions, but also in creating long-term infrastructure for stable growth. We help optimize costs, increase profitability, and maintain control over key business processes.
+							</p>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<a href="index.html" class="footer__logo">
+						<img src="./assets/img/logo-icon.svg" alt="Image">
+						<span>LOOT NINJA</span>
+					</a>
+					<div class="footer__social social">
+						<div class="social__item">
+							<a href="#" class="social__link --icon-s-telegram">daniel_balatskyi</a>
+						</div>
+						<div class="social__item">
+							<a href="#" class="social__link --icon-s-whatsapp">068 209 0234</a>
+						</div>
+						<div class="social__item">
+							<a href="#" class="social__link --icon-s-email">partners@lootninja.gg</a>
+						</div>
+						<div class="social__item">
+							<a href="#" class="social__link --icon-s-linkedin">loot ninja LLP</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
