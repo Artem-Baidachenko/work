@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<title>Home</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1757334382035"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1757334382035">
+		<link rel="preload" as="style" href="./css/webfonts.min.css">
+		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__top">
+						<a href="home.html" class="header__logo">
+							<picture>
+								<img alt="logo" src="./assets/img/logo.webp">
+							</picture>
+						</a>
+						<div class="header__menu menu">
+							<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link">Товари</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Послуги</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Робота</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Нерухомість</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Транспорт</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<div data-fls-dynamic=".menu__body, 991.98" class="header__item">
+							<div data-fls-radio="" class="header__options options">
+								<label class="options__item">
+									<input class="options__input" checked type="radio" value="1" name="option">
+									<span class="options__text">Укр</span>
+								</label>
+								<label class="options__item">
+									<input class="options__input" type="radio" value="2" name="option">
+									<span class="options__text">Рус</span>
+								</label>
+							</div>
+						</div>
+						<a data-fls-dynamic=".menu__body, 991.98" href="#" data-fls-button="" class="action-header__button button button--profile">Увійти</a>
+					</div>
+					<div class="header__body body-header">
+						<form data-fls-dynamic=".menu__body, 991.98" action="#" class="body-header__search search-header">
+							<div class="search-header__wrap">
+								<div class="search-header__body">
+									<button type="submit" class="search-header__button --icon-search"></button>
+									<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Що шукаєте?" class="search-header__input">
+									<div data-fls-showmore="" class="block">
+										<div data-fls-showmore-content="" class="block__content"></div>
+										<button hidden data-fls-showmore-button="" type="button" class="block__more">
+											<span>Показати ще</span>
+											<span>Сховати</span>
+										</button>
+									</div>
+									<div data-fls-showmore="" class="search-header__block block-search">
+										<div data-fls-showmore-content="" class="block-search__wrap">
+											<div class="block-search__result">
+												<div class="block-search__categories">
+													<h4 class="block-search__title">Можливо ви шукали</h4>
+													<div class="block-search__product">
+														<ul class="block-search__list">
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">iphone</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>5</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>16</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>14</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>usb</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>16</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>14</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>usb</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="block-search__result">
+												<div class="block-search__categories">
+													<h4 class="block-search__title">Знайдені товари</h4>
+													<div class="block-search__product product-search">
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="block-search__actions">
+											<button hidden data-fls-showmore-button="" class="block-search__show-all">
+												<span>Показати всі товари</span>
+												<span>Сховати</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="body-header__item">
+								<div class="search-header__wrap">
+									<div class="search-header__body">
+										<button type="submit" class="search-header__button --icon-location"></button>
+										<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Локація пошуку" class="search-header__input">
+										<button type="submit" data-fls-popup-link="popup" class="search-header__button search-header__button--blue --icon-voice"></button>
+									</div>
+								</div>
+							</div>
+						</form>
+						<div data-fls-dynamic=".menu__body, 991.98" class="body-header__actions actions-header">
+							<a href="#" class="actions-header__button button button--icon">Подати оголошення</a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section data-fls-watcher="" data-fls-watcher-once="" class="page__card card">
+					<div class="card__container">
+						<div class="card__section-header section-header">
+							<h2 class="section-header__title">Нещодавно додані</h2>
+						</div>
+						<div class="card__body">
+							<div class="card__content">
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/01.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/02.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/03.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/04.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/05.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/06.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/07.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+								<article class="card__items items-card">
+									<a href="#" class="items-card__link">
+										<picture>
+											<img class="items-card__image ibg" alt="Image" src="./assets/img/card/08.webp">
+										</picture>
+									</a>
+									<div class="items-card__body">
+										<div class="items-card__content">
+											<h4 class="items-card__title">
+												<a href="#" class="items-card__link-title">Поребрик 100*20*8 см ВИРОБНИК!, грн. 115.00</a>
+											</h4>
+											<a href="#" class="items-card__icon --icon-favorite"></a>
+										</div>
+										<div class="items-card__price">
+											115.00
+											<span>грн</span>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div data-fls-popup="popup" aria-hidden="true" class="popup">
+					<div data-fls-popup-wrapper="" class="popup__wrapper">
+						<div data-fls-popup-body="" class="popup__body">
+							<button data-fls-popup-close="" type="button" class="popup__close">
+								<svg width="23" height="23" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+									<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+								</svg>
+							</button>
+							<div data-fls-popup-content="" class="popup__items items-popup">
+								<div class="items-popup__icon --icon-voice"></div>
+								<div class="items-popup__text">Кажіть</div>
+								<ul class="items-popup__list">
+									<li class="items-popup__item items-popup__item--1"></li>
+									<li class="items-popup__item items-popup__item--2"></li>
+									<li class="items-popup__item items-popup__item--3"></li>
+									<li class="items-popup__item items-popup__item--4"></li>
+								</ul>
+								<button data-fls-popup-close="" type="submit" class="items-popup__button">Закрити</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<a href="home.html" class="footer__logo">
+							<picture>
+								<img alt="logo" src="./assets/img/logo.webp">
+							</picture>
+						</a>
+						<div class="footer__copy">
+							© 2025, на основі NDO.com.ua
+							<br>
+							SIA NDO
+							<br>
+							Reg.Nr.40203459225
+							<br>
+							Bērzaunes iela 7, Rīga, LV-1039, Latvija
+						</div>
+						<div class="footer__text">
+							Маркетингові послуги:
+							<a href="#" class="footer__link">Compas Agency</a>
+						</div>
+					</div>
+					<div data-fls-spollers="991.98,max" class="footer__menu menu-footer">
+						<details class="menu-footer__column">
+							<summary class="menu-footer__title">Про оголошення</summary>
+							<div class="menu-footer__body">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Нещодавно додані</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Про нас</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Зв’яжіться з нами</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Вибрані</a>
+									</li>
+								</ul>
+							</div>
+						</details>
+						<details class="menu-footer__column">
+							<summary class="menu-footer__title">Довідка та контакти</summary>
+							<div class="menu-footer__body">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Умови використання</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Політика конфіденційності</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Пошук</a>
+									</li>
+								</ul>
+							</div>
+						</details>
+						<details class="menu-footer__column">
+							<summary class="menu-footer__title">Інформація</summary>
+							<div class="menu-footer__body">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link">Тарифи на розміщення оголошень</a>
+									</li>
+								</ul>
+							</div>
+						</details>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
