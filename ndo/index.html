@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Home</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1757334382035"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1757334382035">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1757353513205"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1757353513205">
 		<link rel="preload" as="style" href="./css/webfonts.min.css">
 		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.min.css">
 	</head>
@@ -21,9 +21,6 @@
 							</picture>
 						</a>
 						<div class="header__menu menu">
-							<button type="button" data-fls-menu="" class="menu__icon icon-menu">
-								<span></span>
-							</button>
 							<nav class="menu__body">
 								<ul class="menu__list">
 									<li class="menu__item">
@@ -54,11 +51,15 @@
 							<div data-fls-radio="" class="header__options options">
 								<label class="options__item">
 									<input class="options__input" checked type="radio" value="1" name="option">
-									<span class="options__text">Укр</span>
+									<span class="options__text">UA</span>
 								</label>
 								<label class="options__item">
 									<input class="options__input" type="radio" value="2" name="option">
-									<span class="options__text">Рус</span>
+									<span class="options__text">RU</span>
+								</label>
+								<label class="options__item">
+									<input class="options__input" type="radio" value="2" name="option">
+									<span class="options__text">EN</span>
 								</label>
 							</div>
 						</div>
@@ -68,17 +69,13 @@
 						<form data-fls-dynamic=".menu__body, 991.98" action="#" class="body-header__search search-header">
 							<div class="search-header__wrap">
 								<div class="search-header__body">
-									<button type="submit" class="search-header__button --icon-search"></button>
-									<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Що шукаєте?" class="search-header__input">
-									<div data-fls-showmore="" class="block">
-										<div data-fls-showmore-content="" class="block__content"></div>
-										<button hidden data-fls-showmore-button="" type="button" class="block__more">
-											<span>Показати ще</span>
-											<span>Сховати</span>
-										</button>
+									<div class="search-header__content">
+										<button type="submit" class="search-header__button --icon-search"></button>
+										<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Що шукаєте?" class="search-header__input">
+										<button type="submit" data-fls-popup-link="popup" class="search-header__button search-header__button--yellow --icon-voice"></button>
 									</div>
-									<div data-fls-showmore="" class="search-header__block block-search">
-										<div data-fls-showmore-content="" class="block-search__wrap">
+									<div data-fls-showmore="size" data-fls-showmore-media="991.98, min" class="search-header__block block-search">
+										<div data-fls-showmore-content="380" class="block-search__wrap">
 											<div class="block-search__result">
 												<div class="block-search__categories">
 													<h4 class="block-search__title">Можливо ви шукали</h4>
@@ -202,6 +199,32 @@
 																<div class="product-search__price">115 ₴</div>
 															</div>
 														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -218,9 +241,91 @@
 							<div class="body-header__item">
 								<div class="search-header__wrap">
 									<div class="search-header__body">
-										<button type="submit" class="search-header__button --icon-location"></button>
-										<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Локація пошуку" class="search-header__input">
-										<button type="submit" data-fls-popup-link="popup" class="search-header__button search-header__button--blue --icon-voice"></button>
+										<div class="search-header__content">
+											<button type="submit" class="search-header__button --icon-location"></button>
+											<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Локація пошуку" class="search-header__input location-input">
+											<button type="submit" class="search-header__button search-header__button--blue --icon-search"></button>
+										</div>
+										<div class="search-header__location location-block">
+											<div class="location-block__wrap">
+												<div class="location-block__result">
+													<div class="location-block__location location">
+														<div class="location__placeholder">Введіть 1 більше символів для пошуку</div>
+														<div class="location__items">
+															<div class="location__item">
+																<h4 class="location__title">
+																	<div class="location__icon --icon-my-location"></div>
+																	<a href="#" class="location__link-title">Оголошення поруч зі мною</a>
+																</h4>
+															</div>
+															<div class="location__item">
+																<h4 class="location__title">
+																	<div class="location__icon --icon-location-check"></div>
+																	<a href="#" class="location__link-title">Всі локації</a>
+																</h4>
+															</div>
+														</div>
+														<div class="location__body body-location">
+															<div class="body-location__name">Популярні міста</div>
+															<div class="body-location__item">
+																<h4 class="body-location__title">
+																	<div class="body-location__icon --icon-location-1"></div>
+																	<a href="#" class="body-location__link-title">
+																		Вінниця, Вінницька область
+																		<span>2804 предмети</span>
+																	</a>
+																</h4>
+															</div>
+															<div class="body-location__item">
+																<h4 class="body-location__title">
+																	<div class="body-location__icon --icon-location-1"></div>
+																	<a href="#" class="body-location__link-title">
+																		Київ, Київська область
+																		<span>1108 предмети</span>
+																	</a>
+																</h4>
+															</div>
+															<div class="body-location__item">
+																<h4 class="body-location__title">
+																	<div class="body-location__icon --icon-location-1"></div>
+																	<a href="#" class="body-location__link-title">
+																		Кривий Ріг, Дніпропетровська область
+																		<span>405 предмети</span>
+																	</a>
+																</h4>
+															</div>
+															<div class="body-location__item">
+																<h4 class="body-location__title">
+																	<div class="body-location__icon --icon-location-1"></div>
+																	<a href="#" class="body-location__link-title">
+																		Харків, Харківська область
+																		<span>391 предмети</span>
+																	</a>
+																</h4>
+															</div>
+															<div class="body-location__item">
+																<h4 class="body-location__title">
+																	<div class="body-location__icon --icon-location-1"></div>
+																	<a href="#" class="body-location__link-title">
+																		Дніпро, Дніпропетровська область
+																		<span>228 предмети</span>
+																	</a>
+																</h4>
+															</div>
+															<div class="body-location__item">
+																<h4 class="body-location__title">
+																	<div class="body-location__icon --icon-location-1"></div>
+																	<a href="#" class="body-location__link-title">
+																		Біла Церква, Київська область
+																		<span>134 предмети</span>
+																	</a>
+																</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -229,6 +334,184 @@
 							<a href="#" class="actions-header__button button button--icon">Подати оголошення</a>
 						</div>
 					</div>
+					<div class="header__body body-header body-header--mob">
+						<form action="#" class="body-header__search search-header">
+							<div class="search-header__wrap">
+								<div class="search-header__body">
+									<div class="search-header__content">
+										<button type="submit" class="search-header__button --icon-search"></button>
+										<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Що шукаєте?" class="search-header__input">
+										<button type="submit" data-fls-popup-link="popup" class="search-header__button search-header__button--yellow --icon-voice"></button>
+									</div>
+									<div data-fls-showmore="size" data-fls-showmore-media="991.98, min" class="search-header__block block-search">
+										<div data-fls-showmore-content="380" class="block-search__wrap">
+											<div class="block-search__result">
+												<div class="block-search__categories">
+													<h4 class="block-search__title">Можливо ви шукали</h4>
+													<div class="block-search__product">
+														<ul class="block-search__list">
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">iphone</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>5</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>16</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>14</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>usb</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>16</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>14</span>
+																</a>
+															</li>
+															<li class="block-search__item">
+																<a href="#" class="block-search__link">
+																	iphone
+																	<span>usb</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="block-search__result">
+												<div class="block-search__categories">
+													<h4 class="block-search__title">Знайдені товари</h4>
+													<div class="block-search__product product-search">
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+														<div class="product-search__items">
+															<a href="#" class="product-search__link">
+																<picture>
+																	<img class="product-search__image ibg" alt="Image" src="./assets/img/card/01.webp">
+																</picture>
+															</a>
+															<div class="product-search__content">
+																<h4 class="product-search__title">
+																	<a href="#" class="product-search__link-title">Поребрик 100*20*8 см ВИРОБНИК!</a>
+																</h4>
+																<div class="product-search__price">115 ₴</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="block-search__actions">
+											<button hidden data-fls-showmore-button="" class="block-search__show-all">
+												<span>Показати всі товари</span>
+												<span>Сховати</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+						<span></span>
+					</button>
 				</div>
 			</header>
 			<main class="page page--home">

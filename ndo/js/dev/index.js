@@ -697,6 +697,8 @@ function menuInit() {
 document.querySelector("[data-fls-menu]") ? window.addEventListener("load", menuInit) : null;
 const searchInput = document.querySelector(".search-header__input");
 const searchBlock = document.querySelector(".block-search");
+const locationInput = document.querySelector(".location-input");
+const locationBlock = document.querySelector(".location-block");
 searchInput.addEventListener("input", () => {
   if (searchInput.value.trim().length > 0) {
     searchBlock.style.opacity = "1";
@@ -704,6 +706,15 @@ searchInput.addEventListener("input", () => {
   } else {
     searchBlock.style.opacity = "0";
     searchBlock.style.pointerEvents = "none";
+  }
+});
+locationInput.addEventListener("input", () => {
+  if (locationInput.value.trim().length > 0) {
+    locationBlock.style.opacity = "1";
+    locationBlock.style.pointerEvents = "auto";
+  } else {
+    locationBlock.style.opacity = "0";
+    locationBlock.style.pointerEvents = "none";
   }
 });
 class DynamicAdapt {
