@@ -492,7 +492,7 @@
 }
 .touch-contacts::after {
   content: "";
-  background: url("../assets/img/home/get-touch/decor.svg") 0 0/contain no-repeat;
+  background: url("../assets/img/home/get-touch/decor.svg") left bottom/contain no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -503,7 +503,7 @@
   position: relative;
   z-index: 3;
 }
-.touch-contacts .touch-contacts__blockhead .blockhead__button {
+.blockhead__button {
   width: 14.75rem;
   text-align: center;
   justify-content: center;
@@ -798,7 +798,10 @@
   }
 }
 @media (width < 34.375em) {
-  .touch-contacts .touch-contacts__blockhead .blockhead__button {
+  .card-vacancies__button {
+    width: 100%;
+  }
+  .blockhead__button {
     width: 100%;
   }
 }

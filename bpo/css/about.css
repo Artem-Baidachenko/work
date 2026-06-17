@@ -203,6 +203,11 @@
   border-radius: 0.625rem;
   padding: 1.5rem 0.5rem 2.0625rem;
 }
+.card-team-career__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .card-team-career__body {
   display: flex;
   flex-direction: column;
@@ -236,10 +241,10 @@
   line-height: 1.571;
   color: var(--color-black);
 }
-.about__caseblock .caseblock__title:not(:last-child) {
+.about-next__caseblock .caseblock__title:not(:last-child) {
   margin-bottom: 0.75rem;
 }
-.about__caseblock .caseblock__text {
+.about-next__caseblock .caseblock__text {
   color: var(--main-color);
   font-weight: 400;
 }
@@ -271,7 +276,7 @@
 }
 .touch-contacts::after {
   content: "";
-  background: url("../assets/img/home/get-touch/decor.svg") 0 0/contain no-repeat;
+  background: url("../assets/img/home/get-touch/decor.svg") left bottom/contain no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -587,10 +592,10 @@
   .card-team-career__position:not(:last-child) {
     margin-bottom: 0.625rem;
   }
-  .about {
+  .about-next {
     padding-bottom: 2.5rem;
   }
-  .about__caseblock:not(:last-child) {
+  .about-next__caseblock:not(:last-child) {
     margin-bottom: 1.25rem;
   }
   .touch-contacts {
@@ -641,7 +646,7 @@
     margin-bottom: clamp( 1.875rem , 0.1607142857125rem  +  8.5714285714vw , 7.5rem );
   }
   .info-about__title {
-    font-size: clamp( 4rem , 2.45714285714375rem  +  7.7142857143vw , 9.0625rem );
+    font-size: clamp( 4rem , 2.93333333333125rem  +  5.3333333333vw , 7.5rem );
   }
   .info-about__text {
     font-size: clamp( 1rem , 0.9238095238125rem  +  0.380952381vw , 1.25rem );
@@ -679,10 +684,10 @@
   .card-team-career__position:not(:last-child) {
     margin-bottom: clamp( 0.625rem , 0.5107142857125rem  +  0.5714285714vw , 1rem );
   }
-  .about {
+  .about-next {
     padding-bottom: clamp( 2.5rem , 1.33809523809375rem  +  5.8095238095vw , 6.3125rem );
   }
-  .about__caseblock:not(:last-child) {
+  .about-next__caseblock:not(:last-child) {
     margin-bottom: clamp( 1.25rem , 0.85rem  +  2vw , 2.5625rem );
   }
   .touch-contacts {
@@ -746,7 +751,7 @@
     margin-bottom: 7.5rem;
   }
   .info-about__title {
-    font-size: 7.0625rem;
+    font-size: 7.5rem;
   }
   .info-about__text {
     font-size: 1.25rem;
@@ -784,10 +789,10 @@
   .card-team-career__position:not(:last-child) {
     margin-bottom: 1rem;
   }
-  .about {
+  .about-next {
     padding-bottom: 6.3125rem;
   }
-  .about__caseblock:not(:last-child) {
+  .about-next__caseblock:not(:last-child) {
     margin-bottom: 2.5625rem;
   }
   .touch-contacts {

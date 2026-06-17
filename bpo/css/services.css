@@ -158,7 +158,7 @@
 }
 .touch-contacts::after {
   content: "";
-  background: url("../assets/img/home/get-touch/decor.svg") 0 0/auto no-repeat;
+  background: url("../assets/img/home/get-touch/decor.svg") left bottom/contain no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -320,6 +320,9 @@
 }
 @media (width < 58.75em) {
   .steps__step {
+    width: 12.5rem;
+  }
+  .steps__step {
     width: 100%;
   }
 }
@@ -355,9 +358,6 @@
   }
   .why__blockhead:not(:last-child) {
     margin-bottom: 1.25rem;
-  }
-  .steps__step {
-    width: 12.5rem;
   }
   .steps__text {
     font-size: 1rem;
@@ -451,9 +451,6 @@
   .why__blockhead:not(:last-child) {
     margin-bottom: clamp( 1.25rem , 1.059523809525rem  +  0.9523809524vw , 1.875rem );
   }
-  .steps__step {
-    width: clamp( 12.5rem , 10.0238095238125rem  +  12.380952381vw , 20.625rem );
-  }
   .steps__text {
     font-size: clamp( 1rem , 0.9238095238125rem  +  0.380952381vw , 1.25rem );
   }
@@ -521,6 +518,11 @@
     font-size: clamp( 1.5rem , 1.23333333333125rem  +  1.3333333333vw , 2.375rem );
   }
 }
+@media (width >= 58.75em) and (width < 120em) {
+  .steps__step {
+    width: clamp( 12.5rem , 4.7066326530625rem  +  13.2653061224vw , 20.625rem );
+  }
+}
 @media (width >= 85.625em) {
   .services-block {
     padding-bottom: 6.3125rem;
@@ -545,9 +547,6 @@
   }
   .why__blockhead:not(:last-child) {
     margin-bottom: 1.875rem;
-  }
-  .steps__step {
-    width: 20.625rem;
   }
   .steps__text {
     font-size: 1.25rem;
@@ -614,6 +613,11 @@
   }
   .popup__title {
     font-size: 2.375rem;
+  }
+}
+@media (width >= 120em) {
+  .steps__step {
+    width: 20.625rem;
   }
 }
 @media (any-hover: hover) {

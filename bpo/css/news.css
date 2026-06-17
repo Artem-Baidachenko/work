@@ -120,6 +120,14 @@
   .card-news__content {
     padding: 1rem;
   }
+  .pagging__arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .pagging__item {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 @media (width < 20em) {
   .news-cards {

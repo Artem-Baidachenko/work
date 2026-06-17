@@ -16,7 +16,7 @@
 }
 .touch-contacts::after {
   content: "";
-  background: url("../assets/img/home/get-touch/decor.svg") 0 0/contain no-repeat;
+  background: url("../assets/img/home/get-touch/decor.svg") left bottom/contain no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;

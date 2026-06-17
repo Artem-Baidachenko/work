@@ -3,15 +3,16 @@
   color: #000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  column-gap: 3.75rem;
   row-gap: 1.25rem;
 }
 .caseblock:nth-child(even) {
   flex-direction: row-reverse;
 }
 .caseblock__images {
-  width: 40.875rem;
+  width: 100%;
+}
+.caseblock__content {
+  width: 100%;
 }
 .caseblock__title {
   max-width: 38.875rem;
@@ -82,15 +83,6 @@
   }
 }
 @media (width < 20em) {
-  .caseblock {
-    column-gap: 1.25rem;
-  }
-  .caseblock__images {
-    width: 7.5rem;
-  }
-  .caseblock__content {
-    width: 7.5rem;
-  }
   .caseblock__title {
     font-size: 1.375rem;
   }
@@ -108,15 +100,6 @@
   }
 }
 @media (width >= 20em) and (width < 85.625em) {
-  .caseblock {
-    column-gap: clamp( 1.25rem , 0.48809523809375rem  +  3.8095238095vw , 3.75rem );
-  }
-  .caseblock__images {
-    width: clamp( 7.5rem , -2.67142857143125rem  +  50.8571428571vw , 40.875rem );
-  }
-  .caseblock__content {
-    width: clamp( 7.5rem , -2.95714285714375rem  +  52.2857142857vw , 41.8125rem );
-  }
   .caseblock__title {
     font-size: clamp( 1.375rem , 1.2607142857125rem  +  0.5714285714vw , 1.75rem );
   }
@@ -133,16 +116,12 @@
     margin-bottom: clamp( 1.25rem , 1.02142857143125rem  +  1.1428571429vw , 2rem );
   }
 }
-@media (width >= 85.625em) {
+@media (width >= 48em) and (width < 120em) {
   .caseblock {
-    column-gap: 3.75rem;
+    column-gap: clamp( 0.9375rem , -0.9375rem  +  3.90625vw , 3.75rem );
   }
-  .caseblock__images {
-    width: 40.875rem;
-  }
-  .caseblock__content {
-    width: 41.8125rem;
-  }
+}
+@media (width >= 85.625em) {
   .caseblock__title {
     font-size: 1.75rem;
   }
