@@ -503,6 +503,7 @@
 @media (width < 42.5em) {
   .journey__container {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
   .journey__item {
     gap: 0.3125rem;
