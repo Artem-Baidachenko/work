@@ -61,6 +61,9 @@
   border: 0.5625rem solid var(--color-gray-bg);
 }
 @media (width < 48em) {
+  .caseblock {
+    column-gap: 0.9375rem;
+  }
   .caseblock:nth-child(even) {
     flex-direction: column-reverse;
   }
@@ -136,5 +139,10 @@
   }
   .caseblock__text:not(:last-child) {
     margin-bottom: 2rem;
+  }
+}
+@media (width >= 120em) {
+  .caseblock {
+    column-gap: 3.75rem;
   }
 }

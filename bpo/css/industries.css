@@ -423,6 +423,12 @@
   display: flex;
   justify-content: center;
 }
+.form-contacts__button {
+  width: 14.75rem;
+  text-align: center;
+  justify-content: center;
+}
+
 .popup__title {
   font-weight: 600;
 }
@@ -730,11 +736,17 @@
   .process-industries__text {
     max-width: 100%;
   }
+  .form-contacts__button {
+    width: 100%;
+  }
   .form-popup__button {
     width: 100%;
   }
 }
 @media (width < 20em) {
+  .industries .blockhead__title--big {
+    font-size: 2rem;
+  }
   .industries-cooperate {
     padding-top: 2.5rem;
   }
@@ -911,6 +923,9 @@
   }
 }
 @media (width >= 20em) and (width < 85.625em) {
+  .industries .blockhead__title--big {
+    font-size: clamp( 2rem , 1.56190476190625rem  +  2.1904761905vw , 3.4375rem );
+  }
   .industries-cooperate {
     padding-top: clamp( 2.5rem , 1.3761904761875rem  +  5.619047619vw , 6.1875rem );
   }
@@ -1103,6 +1118,9 @@
   }
 }
 @media (width >= 85.625em) {
+  .industries .blockhead__title--big {
+    font-size: 3.4375rem;
+  }
   .industries-cooperate {
     padding-top: 6.1875rem;
   }

@@ -146,6 +146,12 @@
   display: flex;
   justify-content: center;
 }
+.form-contacts__button {
+  width: 14.75rem;
+  text-align: center;
+  justify-content: center;
+}
+
 .popup__title {
   font-weight: 600;
 }
@@ -243,6 +249,9 @@
   }
 }
 @media (width < 34.375em) {
+  .form-contacts__button {
+    width: 100%;
+  }
   .form-popup__button {
     width: 100%;
   }

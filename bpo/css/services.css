@@ -219,6 +219,9 @@
   left: 0.3125rem;
   top: 0rem;
 }
+.form-contacts__checkbox .checkbox__text--white {
+  color: #fff;
+}
 .form-contacts__actions {
   display: flex;
   justify-content: center;

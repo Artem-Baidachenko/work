@@ -855,6 +855,7 @@ body {
     left: -100%;
     top: 0;
     transition: left 0.3s;
+    background-color: #fff;
     z-index: 2;
   }
   html[data-fls-menu-open] .menu__body {
@@ -944,6 +945,9 @@ body {
   }
   .header__select:not(:last-child) {
     margin-bottom: 1.25rem;
+  }
+  .header__select:not(:last-child) {
+    margin-right: 0;
   }
   .header__actions:not(:last-child) {
     margin-bottom: 1.25rem;
@@ -1062,7 +1066,7 @@ body {
     width: 7.5rem;
   }
   .header__select:not(:last-child) {
-    margin-right: 0.9375rem;
+    margin-right: 6.25e-8rem;
   }
   .footer__body {
     column-gap: 1.25rem;
@@ -1120,7 +1124,7 @@ body {
     width: clamp( 7.5rem , 5.9761904761875rem  +  7.619047619vw , 12.5rem );
   }
   .header__select:not(:last-child) {
-    margin-right: clamp( 0.9375rem , 0.6517857142875rem  +  1.4285714286vw , 1.875rem );
+    margin-right: clamp( 6.25e-8rem , -0.57142848988125rem  +  2.8571427619vw , 1.875rem );
   }
   .footer__body {
     column-gap: clamp( 1.25rem , 0.83095238095rem  +  2.0952380952vw , 2.625rem );
