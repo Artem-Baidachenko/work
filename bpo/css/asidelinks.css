@@ -15,6 +15,7 @@
   aspect-ratio: 1;
   padding: 0.625rem;
   background-color: var(--color-bg);
+  transition: background-color 0.5s;
 }
 .trustblock__text {
   font-weight: 500;
@@ -99,6 +100,9 @@
   padding: 0.75rem;
   border-radius: 0.4375rem;
 }
+.grid-blockoverview__link {
+  transition: background-color 0.5s;
+}
 .grid-blockoverview__title {
   font-size: 1.125rem;
   font-weight: 700;
@@ -134,6 +138,7 @@
   padding: 0.75rem;
   border-radius: 0.4375rem;
   min-height: 3.4375rem;
+  transition: background-color 0.5s;
 }
 .grid-blockoverview__name {
   font-weight: 700;
@@ -155,6 +160,9 @@
   background-color: var(--color-bg);
   padding: 0.75rem;
   border-radius: 0.4375rem;
+}
+.col-blockoverview__link {
+  transition: background-color 0.5s;
 }
 .col-blockoverview__title {
   font-size: 1.125rem;
@@ -550,6 +558,22 @@
   }
 }
 @media (any-hover: hover) {
+  .trustblock__link:hover {
+    transition: background-color 0.5s;
+    background-color: var(--color-orange);
+  }
+  .grid-blockoverview__link:hover {
+    transition: background-color 0.5s;
+    background-color: var(--color-orange);
+  }
+  .grid-blockoverview__icon:hover {
+    transition: background-color 0.5s;
+    background-color: var(--color-orange);
+  }
+  .col-blockoverview__link:hover {
+    transition: background-color 0.5s;
+    background-color: var(--color-orange);
+  }
   .asidelinks__link:hover {
     color: var(--color-orange);
     transition: color 0.5s;
