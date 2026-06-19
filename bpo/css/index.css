@@ -71,13 +71,14 @@
 }
 .hero__media {
   width: 100%;
-  height: 100%;
+  max-height: 40.625rem;
   border-radius: 0.9375rem;
 }
 .hero__image {
   border-radius: 0.9375rem;
   width: 100%;
   height: 100%;
+  max-height: 40.625rem;
   object-fit: cover;
 }
 .hero__bottom {
@@ -161,6 +162,7 @@
   color: #fff;
 }
 .advantages-about__item {
+  cursor: pointer;
   padding: 1.25rem 1.0625rem 1.25rem 1.25rem;
   background-color: var(--color-bg);
   border-radius: 0.625rem;
@@ -168,6 +170,7 @@
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 1rem;
+  transition: background-color 0.5s;
 }
 .advantages-about__text {
   color: #fff;
@@ -269,9 +272,12 @@
 .recognitions__slider {
   overflow: hidden;
 }
+.recognitions__slide {
+  display: flex;
+  justify-content: center;
+}
 .recognitions__actions {
   width: 100%;
-  height: 100%;
   position: absolute;
   top: 55%;
   left: 0;
@@ -290,8 +296,7 @@
 }
 .recognitions__button--prev {
   position: absolute;
-}
-.recognitions__button--prev {
+  left: 0;
   rotate: -180deg;
   transition: background-color 0.5s, color 0.5s;
 }
@@ -305,12 +310,16 @@
 }
 
 .clients {
+  position: relative;
+  overflow: visible;
   background-color: var(--color-gray-bg);
 }
 .clients__container {
+  overflow: visible;
   position: relative;
 }
 .clients__slider {
+  overflow: visible;
   position: relative;
 }
 .clients__slider::before {
@@ -368,7 +377,6 @@
 }
 .clients__actions {
   width: 100%;
-  height: 100%;
   position: absolute;
   z-index: 3;
   top: 40%;
@@ -413,12 +421,16 @@
   color: var(--color-orange);
 }
 .partners__container {
+  overflow: visible;
   position: relative;
 }
 .partners__slider {
+  overflow: visible;
+  max-width: 83.75rem;
   position: relative;
 }
 .partners__slider::before {
+  pointer-events: none;
   content: "";
   position: absolute;
   z-index: 2;
@@ -429,6 +441,7 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 .partners__slider::after {
+  pointer-events: none;
   content: "";
   position: absolute;
   z-index: 2;
@@ -587,6 +600,9 @@
 .form-contacts__checkbox .checkbox__input:focus-visible + .checkbox__text {
   outline: 0.0625rem solid #000;
 }
+.form-contacts__checkbox .checkbox__input:checked + .checkbox__text::before {
+  background-color: #fff;
+}
 .form-contacts__checkbox .checkbox__input:checked + .checkbox__text:after {
   transform: scale(1);
   color: var(--color-orange);
@@ -607,7 +623,7 @@
   flex: 0 0 1.6875rem;
   width: 1.6875rem;
   height: 1.6875rem;
-  background-color: #fff;
+  background-color: #94918E;
   border: 0.0625rem solid #D3D3D3;
   border-radius: 0.5rem;
 }
@@ -720,29 +736,17 @@
   justify-content: center;
 }
 @media (max-width: 62em) {
-  .recognitions__actions {
-    position: relative;
-    top: 0;
-  }
   .recognitions__button--prev {
     position: relative;
   }
   .recognitions__button--next {
     position: relative;
   }
-  .clients__actions {
-    position: relative;
-    top: 0;
-  }
   .clients__button--prev {
     position: relative;
   }
   .clients__button--next {
     position: relative;
-  }
-  .partners__actions {
-    position: relative;
-    top: 0;
   }
   .partners__button--prev {
     position: relative;
@@ -755,23 +759,20 @@
   }
 }
 @media (width < 62em) {
-  .recognitions__button--prev {
-    left: 6.25e-8rem;
-  }
   .recognitions__button--next {
     right: 6.25e-8rem;
   }
   .clients__button--prev {
-    left: 6.25e-8rem;
+    left: -0.9375rem;
   }
   .clients__button--next {
-    right: 6.25e-8rem;
+    right: -0.9375rem;
   }
   .partners__button--prev {
-    left: 6.25e-8rem;
+    left: -0.9375rem;
   }
   .partners__button--next {
-    right: 6.25e-8rem;
+    right: -0.9375rem;
   }
 }
 @media (width <= 48em) {
@@ -808,12 +809,75 @@
     padding: 0.625rem;
   }
 }
+@media (width < 48em) {
+  .hero__media {
+    max-height: 100%;
+  }
+  .hero__image {
+    max-height: 100%;
+  }
+  .recognitions__button--prev {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: var(--color-black);
+    border: 0.0625rem solid rgba(237, 237, 237, 0.8);
+  }
+  .recognitions__button--next {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: var(--color-black);
+    border: 0.0625rem solid rgba(237, 237, 237, 0.8);
+  }
+  .clients__button--prev {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: var(--color-black);
+    border: 0.0625rem solid rgba(237, 237, 237, 0.8);
+  }
+  .clients__button--next {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: var(--color-black);
+    border: 0.0625rem solid rgba(237, 237, 237, 0.8);
+  }
+  .partners__button--prev {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: var(--color-black);
+    border: 0.0625rem solid rgba(237, 237, 237, 0.8);
+  }
+  .partners__button {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: var(--color-black);
+    border: 0.0625rem solid rgba(237, 237, 237, 0.8);
+  }
+}
 @media (width < 34.375em) {
   .form-contacts__button {
     width: 100%;
   }
   .form-popup__button {
     width: 100%;
+  }
+}
+@media (width <= 30em) {
+  .partners__actions {
+    top: 30%;
+  }
+  .partners__button {
+    width: 3.375rem;
+    height: 3.375rem;
+  }
+}
+@media (width < 30em) {
+  .recognitions__actions {
+    top: 30%;
+  }
+  .recognitions__button--next {
+    width: 3.375rem;
+    height: 3.375rem;
+  }
+  .clients__actions {
+    top: 30%;
+  }
+  .clients__button--next {
+    width: 3.375rem;
+    height: 3.375rem;
   }
 }
 @media (width < 20em) {
@@ -979,7 +1043,7 @@
     padding-bottom: clamp( 2.5rem , 1.16666666666875rem  +  6.6666666667vw , 6.875rem );
   }
   .hero__title {
-    font-size: clamp( 2rem , 1.37142857143125rem  +  3.1428571429vw , 4.0625rem );
+    font-size: clamp( 2rem , 1.56190476190625rem  +  2.1904761905vw , 3.4375rem );
   }
   .hero__text {
     font-size: clamp( 1rem , 0.9238095238125rem  +  0.380952381vw , 1.25rem );
@@ -1117,23 +1181,20 @@
   }
 }
 @media (width >= 62em) and (width < 120em) {
-  .recognitions__button--prev {
-    left: clamp( -3.75rem , 4.0086208189625rem  +  -6.4655173491vw , 6.25e-8rem );
-  }
   .recognitions__button--next {
     right: clamp( -1.875rem , 2.0043104741375rem  +  -3.2327587284vw , 6.25e-8rem );
   }
   .clients__button--prev {
-    left: clamp( -3.75rem , 4.0086208189625rem  +  -6.4655173491vw , 6.25e-8rem );
+    left: clamp( -4.625rem , 3.004310344825rem  +  -6.3577586207vw , -0.9375rem );
   }
   .clients__button--next {
-    right: clamp( -1.875rem , 2.0043104741375rem  +  -3.2327587284vw , 6.25e-8rem );
+    right: clamp( -4.625rem , 3.004310344825rem  +  -6.3577586207vw , -0.9375rem );
   }
   .partners__button--prev {
-    left: clamp( -3.75rem , 4.0086208189625rem  +  -6.4655173491vw , 6.25e-8rem );
+    left: clamp( -4.625rem , 3.004310344825rem  +  -6.3577586207vw , -0.9375rem );
   }
   .partners__button--next {
-    right: clamp( -1.875rem , 2.0043104741375rem  +  -3.2327587284vw , 6.25e-8rem );
+    right: clamp( -4.625rem , 3.004310344825rem  +  -6.3577586207vw , -0.9375rem );
   }
 }
 @media (width >= 85.625em) {
@@ -1150,7 +1211,7 @@
     padding-bottom: 6.875rem;
   }
   .hero__title {
-    font-size: 4.0625rem;
+    font-size: 3.4375rem;
   }
   .hero__text {
     font-size: 1.25rem;
@@ -1286,23 +1347,20 @@
   .hero__slide {
     column-gap: 7.125rem;
   }
-  .recognitions__button--prev {
-    left: -3.75rem;
-  }
   .recognitions__button--next {
     right: -1.875rem;
   }
   .clients__button--prev {
-    left: -3.75rem;
+    left: -4.625rem;
   }
   .clients__button--next {
-    right: -1.875rem;
+    right: -4.625rem;
   }
   .partners__button--prev {
-    left: -3.75rem;
+    left: -4.625rem;
   }
   .partners__button--next {
-    right: -1.875rem;
+    right: -4.625rem;
   }
 }
 @media (any-hover: hover) {
@@ -1315,6 +1373,10 @@
     color: var(--color-orange);
     background-color: #fff;
     transition: background-color 0.5s, color 0.5s;
+  }
+  .advantages-about__item:hover {
+    transition: background-color 0.5s;
+    background-color: var(--color-orange);
   }
   .card-portfolio__image:hover {
     scale: 1.03;

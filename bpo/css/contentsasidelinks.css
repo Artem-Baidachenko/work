@@ -5,7 +5,7 @@
   top: 7.5rem;
   flex-direction: column;
   height: 100%;
-  padding: 2rem;
+  padding: 1.25rem;
   background-color: var(--color-gray-bg);
   border-radius: 0.625rem;
   border: 0.0625rem solid rgba(0, 0, 0, 0.1);
@@ -15,11 +15,13 @@
   line-height: 1.5;
   color: #030213;
 }
+.contentsasidelinks__list {
+  padding-top: 0.9375rem;
+}
 .contentsasidelinks__item:not(:last-child) {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 .contentsasidelinks__link {
-  padding-block: 0.5rem;
   display: flex;
   gap: 0.5rem;
   align-items: center;
@@ -38,32 +40,55 @@
 }
 @media (max-width: 62em) {
   .contentsasidelinks {
+    position: relative;
     width: 100%;
     height: auto;
+    top: 0;
+    margin-top: 0rem;
+    order: 2;
+    padding: 0.9375rem;
+  }
+}
+@media (width < 62em) {
+  .contentsasidelinks__title {
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+    justify-content: space-between;
+  }
+  .--spoller-init .contentsasidelinks__title {
+    cursor: pointer;
+  }
+  .--spoller-init .contentsasidelinks__title::after {
+    font-family: "iconfont";
+    content: "\f101";
+    padding-bottom: 0.3125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--color-black);
+    transition: color 0.5s;
+  }
+  .--spoller-active .--spoller-init .contentsasidelinks__title::after {
+    color: var(--color-orange);
+    rotate: -180deg;
+    transition: color 0.5s;
   }
 }
 @media (width < 20em) {
   .contentsasidelinks__title {
     font-size: 1.125rem;
   }
-  .contentsasidelinks__title:not(:last-child) {
-    margin-bottom: 1.125rem;
-  }
 }
 @media (width >= 20em) and (width < 85.625em) {
   .contentsasidelinks__title {
     font-size: clamp( 1.125rem , 1.08690476190625rem  +  0.1904761905vw , 1.25rem );
   }
-  .contentsasidelinks__title:not(:last-child) {
-    margin-bottom: clamp( 1.125rem , 1.0107142857125rem  +  0.5714285714vw , 1.5rem );
-  }
 }
 @media (width >= 85.625em) {
   .contentsasidelinks__title {
     font-size: 1.25rem;
-  }
-  .contentsasidelinks__title:not(:last-child) {
-    margin-bottom: 1.5rem;
   }
 }
 @media (any-hover: hover) {

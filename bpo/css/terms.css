@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
 }
+
 .terms-info__container {
   max-width: 60.1875rem;
 }
@@ -68,9 +69,23 @@
 .terms-info__container > *:last-child {
   margin-bottom: 0rem;
 }
-@media (width < 31.25em) {
+@media (width < 62em) {
+  .terms .breadcrumb {
+    order: 1;
+    padding-bottom: 0.9375rem;
+  }
+  .terms {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
   .terms__body {
-    display: inline-block;
+    flex-direction: column;
+    order: 3;
+  }
+  .terms__body {
+    flex-direction: column;
+    order: 3;
   }
 }
 @media (width < 20em) {

@@ -118,9 +118,19 @@
 .cookiespolicy-info__container ol li:not(:last-child) {
   margin-bottom: 0.25rem;
 }
-@media (width < 31.25em) {
+@media (width < 62em) {
+  .cookiespolicy .breadcrumb {
+    order: 1;
+    padding-bottom: 0.9375rem;
+  }
+  .cookiespolicy {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
   .cookiespolicy__body {
-    display: inline-block;
+    flex-direction: column;
+    order: 3;
   }
 }
 @media (width < 20em) {

@@ -13,6 +13,9 @@
   padding: 0.75rem;
   border-radius: 0.4375rem;
 }
+.solutions-card__link {
+  transition: background-color 0.5s;
+}
 .solutions-card__list {
   display: grid;
   gap: 0.3125rem;
@@ -287,6 +290,9 @@
   .solutions-block__column {
     gap: 1.25rem;
   }
+  .solutions-block__column:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
   .items-solutions__card {
     padding-block: 1rem;
   }
@@ -363,6 +369,9 @@
   }
   .solutions-block__column {
     gap: clamp( 1.25rem , 1.059523809525rem  +  0.9523809524vw , 1.875rem );
+  }
+  .solutions-block__column:not(:last-child) {
+    margin-bottom: clamp( 1.25rem , 1.02142857143125rem  +  1.1428571429vw , 2rem );
   }
   .items-solutions__card {
     padding-block: clamp( 1rem , 0.86666666666875rem  +  0.6666666667vw , 1.4375rem );
@@ -449,6 +458,9 @@
   .solutions-block__column {
     gap: 1.875rem;
   }
+  .solutions-block__column:not(:last-child) {
+    margin-bottom: 2rem;
+  }
   .items-solutions__card {
     padding-block: 1.4375rem;
   }
@@ -480,5 +492,11 @@
   }
   .solutions-block__col .solutions-card {
     width: 27.3125rem;
+  }
+}
+@media (any-hover: hover) {
+  .solutions-card__link:hover {
+    transition: background-color 0.5s;
+    background-color: var(--color-orange);
   }
 }

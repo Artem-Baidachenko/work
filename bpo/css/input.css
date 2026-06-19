@@ -33,7 +33,7 @@ textarea {
 
 .input-popup-feedback {
   border-radius: 0.75rem;
-  width: 26.6875rem;
+  width: 100%;
   margin-inline: auto;
   display: block;
   padding: 1.0625rem 1.3125rem;

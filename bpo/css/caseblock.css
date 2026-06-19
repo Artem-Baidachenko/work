@@ -58,7 +58,11 @@
   width: 57.7981651376%;
   margin-top: -15.2905198777%;
   border-radius: 2.125rem;
-  border: 0.5625rem solid var(--color-gray-bg);
+  border: 0.5rem solid var(--color-gray-bg);
+}
+.images-caseblock__item--border:nth-child(2) {
+  border: 0.5rem solid #fff;
+  width: 44.6945337621%;
 }
 @media (width < 48em) {
   .caseblock {
@@ -78,11 +82,6 @@
   }
   .caseblock__title {
     max-width: 100%;
-  }
-}
-@media (width < 37.5em) {
-  .images-caseblock__item:nth-child(2) {
-    border-radius: 2.625rem;
   }
 }
 @media (width < 20em) {

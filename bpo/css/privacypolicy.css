@@ -66,15 +66,26 @@
   content: "";
   width: 0.375rem;
   height: 0.375rem;
+  flex: 0 0 0.375rem;
   background-color: var(--color-orange);
   border-radius: 50%;
 }
 .privacypolicy-info__container li:not(:last-child) {
   margin-bottom: 0.9375rem;
 }
-@media (width < 31.25em) {
+@media (width < 62em) {
+  .privacypolicy .breadcrumb {
+    order: 1;
+    padding-bottom: 0.9375rem;
+  }
+  .privacypolicy {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
   .privacypolicy__body {
-    display: inline-block;
+    flex-direction: column;
+    order: 3;
   }
 }
 @media (width < 20em) {

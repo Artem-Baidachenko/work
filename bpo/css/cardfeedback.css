@@ -10,6 +10,7 @@
   flex-direction: column;
   flex: 1 1 auto;
   align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 2;
   background-color: var(--color-bg);
@@ -65,6 +66,10 @@
   display: flex;
   gap: 0.9375rem;
   align-items: center;
+}
+.card-feedback__avatar {
+  width: 6rem;
+  height: 6rem;
 }
 .card-feedback__image {
   width: 100%;

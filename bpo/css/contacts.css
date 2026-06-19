@@ -41,7 +41,6 @@
 .address-info__name {
   line-height: 1.2;
   color: var(--color-black);
-  box-shadow: 0rem 0.25rem 1.5625rem rgba(204, 204, 204, 0.25);
 }
 .address-info__name:not(:last-child) {
   margin-bottom: 0.8125rem;
@@ -129,6 +128,7 @@
   line-height: 1;
   text-align: center;
   color: var(--color-black);
+  box-shadow: 0rem 0.25rem 1.5625rem rgba(204, 204, 204, 0.25);
   background-color: #fff;
   padding: 0.625rem 1.25rem;
   border-radius: 0.75rem;
@@ -177,6 +177,9 @@
 .form-contacts__checkbox .checkbox__input:focus-visible + .checkbox__text {
   outline: 0.0625rem solid #000;
 }
+.form-contacts__checkbox .checkbox__input:checked + .checkbox__text::before {
+  background-color: #fff;
+}
 .form-contacts__checkbox .checkbox__input:checked + .checkbox__text:after {
   transform: scale(1);
   color: var(--color-orange);
@@ -197,7 +200,7 @@
   flex: 0 0 1.6875rem;
   width: 1.6875rem;
   height: 1.6875rem;
-  background-color: #fff;
+  background-color: #94918E;
   border: 0.0625rem solid #D3D3D3;
   border-radius: 0.5rem;
 }

@@ -12,6 +12,9 @@
   background-color: var(--color-bg);
   padding: 0.75rem;
 }
+.card-solutions__link {
+  transition: background-color 0.5s;
+}
 .card-solutions__body {
   display: flex;
   flex-direction: column;
@@ -19,6 +22,7 @@
   flex: 1 1 auto;
 }
 .card-solutions__title {
+  flex-grow: 1;
   display: flex;
   font-weight: 600;
 }
@@ -102,6 +106,10 @@
   }
 }
 @media (any-hover: hover) {
+  .card-solutions__link:hover {
+    transition: background-color 0.5s;
+    background-color: var(--color-orange);
+  }
   .card-solutions__link-title:hover {
     color: var(--color-orange);
   }

@@ -38,6 +38,10 @@
 .blockhead__text--white {
   color: #fff;
 }
+.blockhead__text--white-contacts {
+  max-width: 65.3125rem;
+  color: #fff;
+}
 .blockhead__text--width {
   max-width: 57.8125rem;
 }

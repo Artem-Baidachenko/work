@@ -3,7 +3,7 @@
   max-width: 64rem;
 }
 .healthcare .blockhero {
-  padding-top: 1.5625rem;
+  padding-top: 1.25rem;
 }
 .healthcare .blockhero__container {
   max-width: 63.8125rem;
@@ -107,6 +107,9 @@
 .form-contacts__checkbox .checkbox__input:focus-visible + .checkbox__text {
   outline: 0.0625rem solid #000;
 }
+.form-contacts__checkbox .checkbox__input:checked + .checkbox__text::before {
+  background-color: #fff;
+}
 .form-contacts__checkbox .checkbox__input:checked + .checkbox__text:after {
   transform: scale(1);
   color: var(--color-orange);
@@ -127,7 +130,7 @@
   flex: 0 0 1.6875rem;
   width: 1.6875rem;
   height: 1.6875rem;
-  background-color: #fff;
+  background-color: #94918E;
   border: 0.0625rem solid #D3D3D3;
   border-radius: 0.5rem;
 }
@@ -242,6 +245,7 @@
 @media (max-width: 62em) {
   .healthcare .blockhero__container {
     grid-template-columns: 1fr;
+    order: 2;
   }
   .healthcare .blockhero .blockhead__text {
     max-width: 100%;
@@ -249,6 +253,12 @@
   .healthcare .blockhero__image {
     width: 100%;
     height: 100%;
+  }
+}
+@media (width < 62em) {
+  .healthcare .blockhero {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (width < 34.375em) {
