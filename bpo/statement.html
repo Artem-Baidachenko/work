@@ -3,19 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Statement</title>
-		<script type="module" crossorigin="" src="./js/statement.js?v=1781616896047"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1781616896047">
-		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1781616896047">
-		<link rel="stylesheet" crossorigin="" href="./css/statement.css?v=1781616896047">
-		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1781616896047">
+		<script type="module" crossorigin="" src="./js/statement.js?v=1781886848053"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1781886848053">
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1781886848053">
+		<link rel="stylesheet" crossorigin="" href="./css/statement.css?v=1781886848053">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1781886848053">
 		<link rel="preload" as="style" href="./css/webfonts.css">
 		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.css">
 	</head>
 	<body>
 		<div class="wrapper">
-			<header data-fls-header="" data-fls-header-scroll="" class="header">
+			<header data-fls-header="" class="header">
 				<div class="header__container">
 					<a href="index.html" class="header__logo">
 						<picture>
@@ -30,7 +30,31 @@
 									<div class="menu__sub-menu sub-menu">
 										<ul class="sub-menu__list">
 											<li class="sub-menu__item">
-												<a target="_blank" class="sub-menu__link" href="services.html">Services</a>
+												<a target="_blank" class="sub-menu__link" href="support.html">Customer Support</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="media.html">Content & Media Intelligence</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="management.html">Data Management</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="annotation.html">AI & Data Annotation</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="qualitycontrol.html">Data Quality Assurance</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="recruitment.html">HR and Recruitment</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="backoffice.html">Backoffice Services</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="design.html">Creative & Design Services</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="humanservice.html">Human-in-the-Loop (HITL) Services</a>
 											</li>
 										</ul>
 									</div>
@@ -40,7 +64,22 @@
 									<div class="menu__sub-menu sub-menu">
 										<ul class="sub-menu__list">
 											<li class="sub-menu__item">
-												<a target="_blank" class="sub-menu__link" href="#">Industries</a>
+												<a target="_blank" class="sub-menu__link" href="communications.html">Media & Communications</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="consumer.html">Retail & Consumer Goods</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="utilities.html">Energy & Utilities</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="financial.html">Financial Services & Fintech</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="automation.html">Intelligent automation</a>
+											</li>
+											<li class="sub-menu__item">
+												<a target="_blank" class="sub-menu__link" href="healthcare.html">Healthcare</a>
 											</li>
 										</ul>
 									</div>
@@ -77,11 +116,11 @@
 					<div data-fls-dynamic=".menu__body, 992" class="header__select">
 						<select name="form[]" data-fls-select="" data-fls-select-modif="form">
 							<option value="1" selected>En</option>
-							<option value="2">Ua</option>
+							<option value="2">De</option>
 						</select>
 					</div>
 					<div data-fls-dynamic=".menu__body, 992" class="header__actions">
-						<a href="#" data-fls-button="" class="header__button button button-header">Get Started</a>
+						<a href="#" data-fls-popup-link="popup" data-fls-button="" class="header__button button button-header">Get Started</a>
 					</div>
 					<button type="button" data-fls-menu="" class="header__icon icon-menu">
 						<span></span>
@@ -246,11 +285,11 @@
 									<div class="footer__select">
 										<select name="form[]" data-fls-select="" data-fls-select-modif="form">
 											<option value="1" selected>En</option>
-											<option value="2">Ua</option>
+											<option value="2">De</option>
 										</select>
 									</div>
 									<div class="footer__actions">
-										<a href="#" data-fls-button="" class="footer__button button">Get Started</a>
+										<a href="#" data-fls-popup-link="popup" data-fls-button="" class="footer__button button">Get Started</a>
 									</div>
 								</div>
 								<ul class="items-footer__social social-footer">
@@ -264,15 +303,22 @@
 										<a href="#" class="social-footer__link --icon-s-facebook"></a>
 									</li>
 								</ul>
+								<ul class="items-footer__info info-footer">
+									<li class="info-footer__item">
+										<a href="tel:+380631882866" class="info-footer__link">+38 (063) 188 28 66</a>
+										<p></p>
+									</li>
+									<li class="info-footer__item">
+										<a href="mailto:info@bponextdoor.com" class="info-footer__link">info@bponextdoor.com</a>
+									</li>
+								</ul>
 							</div>
 							<div class="items-footer__bottom">
 								<div class="items-footer__text">
 									<p>Developed by</p>
 								</div>
 								<div class="items-footer__logo">
-									<picture>
-										<img alt="Image" src="./assets/img/logo-company.webp">
-									</picture>
+									<img src="./assets/img/logo-company.svg" alt="Image">
 								</div>
 							</div>
 						</div>
