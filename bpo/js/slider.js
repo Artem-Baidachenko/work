@@ -3914,11 +3914,11 @@ function initSliders() {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 3,
-		slidesPerGroup: 1,
 		initialSlide: 1,
 		spaceBetween: 20,
 		speed: 800,
 		loop: true,
+		loopAdditionalSlides: 3,
 		navigation: {
 			prevEl: ".clients__button--prev",
 			nextEl: ".clients__button--next"
@@ -3935,11 +3935,11 @@ function initSliders() {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 3,
-		slidesPerGroup: 1,
 		initialSlide: 1,
 		spaceBetween: 20,
 		speed: 800,
 		loop: true,
+		loopAdditionalSlides: 3,
 		navigation: {
 			prevEl: ".partners__button--prev",
 			nextEl: ".partners__button--next"
@@ -3986,8 +3986,9 @@ function initSliders() {
 		},
 		breakpoints: {
 			320: { slidesPerView: 1 },
-			992: { slidesPerView: 2 },
-			1280: { slidesPerView: 4 }
+			768: { slidesPerView: 2 },
+			992: { slidesPerView: 3 },
+			1240: { slidesPerView: 4 }
 		},
 		on: {}
 	});
