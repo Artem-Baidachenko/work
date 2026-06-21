@@ -32,6 +32,12 @@
   position: relative;
   z-index: 2;
 }
+.consumer .form-contacts__items {
+  grid-template-columns: repeat(auto-fit, minmax(min(18.75rem, 100%), 1fr));
+}
+.consumer .form-contacts__items:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
 
 .page {
   display: flex;
@@ -110,6 +116,14 @@
   grid-template-columns: repeat(auto-fit, minmax(min(23.75rem, 100%), 1fr));
   row-gap: 1.375rem;
   column-gap: 1.875rem;
+}
+.form-contacts__desc {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.form-contacts__desc:not(:last-child) {
+  margin-bottom: 0.5rem;
 }
 .form-contacts__checkbox .checkbox__input {
   position: absolute;

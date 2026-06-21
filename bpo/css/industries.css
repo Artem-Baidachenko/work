@@ -242,6 +242,30 @@
 .card-work__link {
   transition: background-color 0.5s;
 }
+.card-work__link--1 path:nth-child(6), .card-work__link--1 path:nth-child(7), .card-work__link--1 path:nth-child(8), .card-work__link--1 path:nth-child(9), .card-work__link--1 path:nth-child(10), .card-work__link--1 path:nth-child(11), .card-work__link--1 path:nth-child(12), .card-work__link--1 path:nth-child(13), .card-work__link--1 path:nth-child(14), .card-work__link--1 path:nth-child(15), .card-work__link--1 path:nth-child(17), .card-work__link--1 path:nth-child(18), .card-work__link--1 path:nth-child(19), .card-work__link--1 path:nth-child(20), .card-work__link--1 path:nth-child(21), .card-work__link--1 path:nth-child(22), .card-work__link--1 path:nth-child(23) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-work__link--2 path:nth-child(2), .card-work__link--2 path:nth-child(3), .card-work__link--2 path:nth-child(4), .card-work__link--2 path:nth-child(5), .card-work__link--2 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-work__link--3 path:nth-child(2), .card-work__link--3 path:nth-child(3), .card-work__link--3 path:nth-child(4), .card-work__link--3 path:nth-child(5), .card-work__link--3 path:nth-child(6), .card-work__link--3 path:nth-child(7), .card-work__link--3 path:nth-child(8), .card-work__link--3 path:nth-child(9), .card-work__link--3 path:nth-child(10), .card-work__link--3 path:nth-child(11) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-work__link--4 path:nth-child(2), .card-work__link--4 path:nth-child(3), .card-work__link--4 path:nth-child(4), .card-work__link--4 path:nth-child(5), .card-work__link--4 path:nth-child(6), .card-work__link--4 path:nth-child(7), .card-work__link--4 path:nth-child(8) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-work__link--5 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-work__link--6 path:nth-child(2), .card-work__link--6 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
 .card-work__title {
   font-weight: 600;
 }
@@ -373,6 +397,17 @@
   background-color: var(--color-bg);
   border-radius: 0.625rem;
   transition: background-color 0.5s;
+}
+.process-industries__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-orange);
+  width: 1.4375rem;
+  height: 1.4375rem;
+}
+.process-industries__icon path {
+  transition: all 0.5s;
 }
 .process-industries__text {
   font-size: 1.125rem;
@@ -1368,6 +1403,30 @@
   .card-work__link:hover {
     background-color: var(--color-orange);
   }
+  .card-work__link--1:hover path:nth-child(6), .card-work__link--1:hover path:nth-child(7), .card-work__link--1:hover path:nth-child(8), .card-work__link--1:hover path:nth-child(9), .card-work__link--1:hover path:nth-child(10), .card-work__link--1:hover path:nth-child(11), .card-work__link--1:hover path:nth-child(12), .card-work__link--1:hover path:nth-child(13), .card-work__link--1:hover path:nth-child(14), .card-work__link--1:hover path:nth-child(15), .card-work__link--1:hover path:nth-child(17), .card-work__link--1:hover path:nth-child(18), .card-work__link--1:hover path:nth-child(19), .card-work__link--1:hover path:nth-child(20), .card-work__link--1:hover path:nth-child(21), .card-work__link--1:hover path:nth-child(22), .card-work__link--1:hover path:nth-child(23) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-work__link--2:hover path:nth-child(2), .card-work__link--2:hover path:nth-child(3), .card-work__link--2:hover path:nth-child(4), .card-work__link--2:hover path:nth-child(5), .card-work__link--2:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-work__link--3:hover path:nth-child(2), .card-work__link--3:hover path:nth-child(3), .card-work__link--3:hover path:nth-child(4), .card-work__link--3:hover path:nth-child(5), .card-work__link--3:hover path:nth-child(6), .card-work__link--3:hover path:nth-child(7), .card-work__link--3:hover path:nth-child(8), .card-work__link--3:hover path:nth-child(9), .card-work__link--3:hover path:nth-child(10), .card-work__link--3:hover path:nth-child(11) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-work__link--4:hover path:nth-child(2), .card-work__link--4:hover path:nth-child(3), .card-work__link--4:hover path:nth-child(4), .card-work__link--4:hover path:nth-child(5), .card-work__link--4:hover path:nth-child(6), .card-work__link--4:hover path:nth-child(7), .card-work__link--4:hover path:nth-child(8) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-work__link--5:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-work__link--6:hover path:nth-child(2), .card-work__link--6:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
   .card-work__link-title:hover {
     color: var(--color-orange);
     transition: all 0.5s;
@@ -1386,6 +1445,26 @@
   }
   .workflow-industries__item:hover {
     background-color: var(--color-orange);
+  }
+  .workflow-industries__item:hover .workflow-industries__icon--1 path {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .workflow-industries__item:hover .workflow-industries__icon--2 path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .workflow-industries__item:hover .workflow-industries__icon--3 path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+    fill: var(--color-bg);
+  }
+  .workflow-industries__item:hover .workflow-industries__icon--4 path {
+    fill: var(--color-bg);
+  }
+  .workflow-industries__item:hover .workflow-industries__icon--5 path {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
   }
   .process-industries__item:hover {
     background-color: #fff;

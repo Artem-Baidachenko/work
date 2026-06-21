@@ -11,11 +11,54 @@
   gap: 1.1875rem;
 }
 .trustblock__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 0 0 3.75rem;
   aspect-ratio: 1;
   padding: 0.625rem;
   background-color: var(--color-bg);
   transition: background-color 0.5s;
+}
+.trustblock__link--1 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--2 path:nth-child(4), .trustblock__link--2 path:nth-child(5), .trustblock__link--2 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--3 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--4 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--5 path:nth-child(20), .trustblock__link--5 path:nth-child(21), .trustblock__link--5 path:nth-child(22), .trustblock__link--5 path:nth-child(23) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--6 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--7 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--8 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--9 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.trustblock__link--10 path:nth-child(11) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
 }
 .trustblock__text {
   font-weight: 500;
@@ -103,6 +146,34 @@
 .grid-blockoverview__link {
   transition: background-color 0.5s;
 }
+.grid-blockoverview__link--1 path:nth-child(16), .grid-blockoverview__link--1 path:nth-child(16), .grid-blockoverview__link--1 path:nth-child(17) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.grid-blockoverview__link--2 path:nth-child(5), .grid-blockoverview__link--2 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.grid-blockoverview__link--3 path:nth-child(1), .grid-blockoverview__link--3 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.grid-blockoverview__link--4 path:nth-child(3), .grid-blockoverview__link--4 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.grid-blockoverview__link--5 path:nth-child(10), .grid-blockoverview__link--5 path:nth-child(11), .grid-blockoverview__link--5 path:nth-child(12) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.grid-blockoverview__link--6 path:nth-child(2), .grid-blockoverview__link--6 path:nth-child(3), .grid-blockoverview__link--6 path:nth-child(4), .grid-blockoverview__link--6 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.grid-blockoverview__link--7 path:nth-child(2), .grid-blockoverview__link--7 path:nth-child(3), .grid-blockoverview__link--7 path:nth-child(4), .grid-blockoverview__link--7 path:nth-child(5), .grid-blockoverview__link--7 path:nth-child(6), .grid-blockoverview__link--7 path:nth-child(7), .grid-blockoverview__link--7 path:nth-child(8), .grid-blockoverview__link--7 path:nth-child(9) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
 .grid-blockoverview__title {
   font-size: 1.125rem;
   font-weight: 700;
@@ -140,6 +211,18 @@
   min-height: 3.4375rem;
   transition: background-color 0.5s;
 }
+.grid-blockoverview__icon--1 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.grid-blockoverview__icon--2 path:nth-child(5), .grid-blockoverview__icon--2 path:nth-child(6), .grid-blockoverview__icon--2 path:nth-child(7), .grid-blockoverview__icon--2 path:nth-child(9), .grid-blockoverview__icon--2 path:nth-child(10), .grid-blockoverview__icon--2 path:nth-child(11), .grid-blockoverview__icon--2 path:nth-child(12) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.grid-blockoverview__icon--3 path:nth-child(2), .grid-blockoverview__icon--3 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
 .grid-blockoverview__name {
   font-weight: 700;
   font-size: 1.125rem;
@@ -163,6 +246,508 @@
 }
 .col-blockoverview__link {
   transition: background-color 0.5s;
+}
+.col-blockoverview__link--1 path:nth-child(8), .col-blockoverview__link--1 path:nth-child(9), .col-blockoverview__link--1 path:nth-child(10), .col-blockoverview__link--1 path:nth-child(11), .col-blockoverview__link--1 path:nth-child(12) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--2 path:nth-child(7), .col-blockoverview__link--2 path:nth-child(8), .col-blockoverview__link--2 path:nth-child(9), .col-blockoverview__link--2 path:nth-child(10) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--3 path:nth-child(1), .col-blockoverview__link--3 path:nth-child(2), .col-blockoverview__link--3 path:nth-child(3), .col-blockoverview__link--3 path:nth-child(4), .col-blockoverview__link--3 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--4 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--5 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--6 path:nth-child(4), .col-blockoverview__link--6 path:nth-child(5), .col-blockoverview__link--6 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--7 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--8 path:nth-child(1), .col-blockoverview__link--8 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--9 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--10 path:nth-child(2), .col-blockoverview__link--10 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--11 path:nth-child(3), .col-blockoverview__link--11 path:nth-child(4), .col-blockoverview__link--11 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--12 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--13 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--14 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--15 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--16 path:nth-child(2), .col-blockoverview__link--16 path:nth-child(4), .col-blockoverview__link--16 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--17 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--18 path:nth-child(2) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--19 path:nth-child(1), .col-blockoverview__link--19 path:nth-child(2), .col-blockoverview__link--19 path:nth-child(3), .col-blockoverview__link--19 path:nth-child(10), .col-blockoverview__link--19 path:nth-child(11) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--20 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--21 path:nth-child(2) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--22 path:nth-child(2), .col-blockoverview__link--22 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--23 path:nth-child(3), .col-blockoverview__link--23 path:nth-child(4), .col-blockoverview__link--23 path:nth-child(5), .col-blockoverview__link--23 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--24 path:nth-child(2), .col-blockoverview__link--24 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--25 path:nth-child(3), .col-blockoverview__link--25 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--26 path:nth-child(1), .col-blockoverview__link--26 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--27 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--28 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--29 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--30 path:nth-child(3), .col-blockoverview__link--30 path:nth-child(4), .col-blockoverview__link--30 path:nth-child(5), .col-blockoverview__link--30 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--31 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--32 path:nth-child(2), .col-blockoverview__link--32 path:nth-child(3), .col-blockoverview__link--32 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--33 path:nth-child(2), .col-blockoverview__link--33 path:nth-child(4), .col-blockoverview__link--33 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--34 path:nth-child(1), .col-blockoverview__link--34 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--35 path:nth-child(2), .col-blockoverview__link--35 path:nth-child(3), .col-blockoverview__link--35 path:nth-child(4), .col-blockoverview__link--35 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--36 line {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--37 path:nth-child(8) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--38 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--39 path:nth-child(2) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--40 circle:nth-child(2), .col-blockoverview__link--40 circle:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--41 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--42 path:nth-child(4), .col-blockoverview__link--42 path:nth-child(5), .col-blockoverview__link--42 path:nth-child(6), .col-blockoverview__link--42 path:nth-child(7), .col-blockoverview__link--42 path:nth-child(8), .col-blockoverview__link--42 path:nth-child(9) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--43 path:nth-child(2) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--44 path:nth-child(1), .col-blockoverview__link--44 path:nth-child(3), .col-blockoverview__link--44 path:nth-child(4), .col-blockoverview__link--44 path:nth-child(5), .col-blockoverview__link--44 path:nth-child(6), .col-blockoverview__link--44 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--45 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--46 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--47 path:nth-child(8) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--48 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--49 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--50 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--51 path:nth-child(1), .col-blockoverview__link--51 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--52 path:nth-child(6), .col-blockoverview__link--52 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--53 circle {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--54 rect {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--55 path:nth-child(2), .col-blockoverview__link--55 path:nth-child(3) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--56 path:nth-child(2), .col-blockoverview__link--56 path:nth-child(3), .col-blockoverview__link--56 path:nth-child(4), .col-blockoverview__link--56 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--57 path:nth-child(1), .col-blockoverview__link--57 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--58 path:nth-child(1), .col-blockoverview__link--58 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--59 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--60 path:nth-child(9), .col-blockoverview__link--60 path:nth-child(10), .col-blockoverview__link--60 path:nth-child(11), .col-blockoverview__link--60 path:nth-child(12), .col-blockoverview__link--60 path:nth-child(13), .col-blockoverview__link--60 path:nth-child(14) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--61 path:nth-child(1), .col-blockoverview__link--61 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--62 path:nth-child(6), .col-blockoverview__link--62 path:nth-child(7), .col-blockoverview__link--62 path:nth-child(8), .col-blockoverview__link--62 path:nth-child(9) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--63 path:nth-child(1), .col-blockoverview__link--63 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--64 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--65 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--66 path:nth-child(6), .col-blockoverview__link--66 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--67 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--68 path:nth-child(1), .col-blockoverview__link--68 path:nth-child(2), .col-blockoverview__link--68 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--69 path:nth-child(1), .col-blockoverview__link--69 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--70 path:nth-child(2), .col-blockoverview__link--70 path:nth-child(3), .col-blockoverview__link--70 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--71 path:nth-child(1), .col-blockoverview__link--71 path:nth-child(2), .col-blockoverview__link--71 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--72 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--73 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--74 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--75 path:nth-child(2), .col-blockoverview__link--75 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--76 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--77 path:nth-child(4), .col-blockoverview__link--77 path:nth-child(5), .col-blockoverview__link--77 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--78 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--79 path:nth-child(2), .col-blockoverview__link--79 path:nth-child(3), .col-blockoverview__link--79 path:nth-child(4), .col-blockoverview__link--79 path:nth-child(5), .col-blockoverview__link--79 path:nth-child(6), .col-blockoverview__link--79 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--80 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--81 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--82 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--83 path:nth-child(2), .col-blockoverview__link--83 path:nth-child(3), .col-blockoverview__link--83 path:nth-child(4), .col-blockoverview__link--83 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--84 path:nth-child(2), .col-blockoverview__link--84 path:nth-child(3), .col-blockoverview__link--84 path:nth-child(4), .col-blockoverview__link--84 path:nth-child(5), .col-blockoverview__link--84 path:nth-child(6), .col-blockoverview__link--84 path:nth-child(7), .col-blockoverview__link--84 path:nth-child(8) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--85 path:nth-child(2), .col-blockoverview__link--85 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--86 circle {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--87 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--88 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--89 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--90 path:nth-child(1), .col-blockoverview__link--90 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--91 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--92 path:nth-child(1), .col-blockoverview__link--92 path:nth-child(3), .col-blockoverview__link--92 path:nth-child(4), .col-blockoverview__link--92 path:nth-child(5), .col-blockoverview__link--92 path:nth-child(6), .col-blockoverview__link--92 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--93 path:nth-child(2), .col-blockoverview__link--93 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--94 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--95 path:nth-child(2) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--96 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--97 path:nth-child(3), .col-blockoverview__link--97 path:nth-child(4), .col-blockoverview__link--97 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--98 rect:nth-child(3) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--99 path:nth-child(2), .col-blockoverview__link--99 path:nth-child(3), .col-blockoverview__link--99 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--100 path:nth-child(6), .col-blockoverview__link--100 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--101 circle {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+  fill: var(--color-bg);
+}
+.col-blockoverview__link--102 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--103 path:nth-child(1), .col-blockoverview__link--103 path:nth-child(2), .col-blockoverview__link--103 path:nth-child(5), .col-blockoverview__link--103 path:nth-child(7), .col-blockoverview__link--103 path:nth-child(8) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--104 path:nth-child(1), .col-blockoverview__link--104 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--105 path:nth-child(4), .col-blockoverview__link--105 path:nth-child(5), .col-blockoverview__link--105 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--106 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--107 path:nth-child(2), .col-blockoverview__link--107 path:nth-child(3), .col-blockoverview__link--107 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--108 path:nth-child(2) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--109 path:nth-child(3), .col-blockoverview__link--109 path:nth-child(4) {
+  transition: all 0.5s;
+  stroke: var(--color-orange);
+}
+.col-blockoverview__link--110 path:nth-child(5), .col-blockoverview__link--110 path:nth-child(6), .col-blockoverview__link--110 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--111 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--112 path:nth-child(1), .col-blockoverview__link--112 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--113 path:nth-child(1), .col-blockoverview__link--113 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--114 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--115 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--116 path:nth-child(2), .col-blockoverview__link--116 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--117 path:nth-child(2), .col-blockoverview__link--117 path:nth-child(4), .col-blockoverview__link--117 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--118 path:nth-child(2), .col-blockoverview__link--118 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--119 circle {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--120 path:nth-child(5), .col-blockoverview__link--120 path:nth-child(6), .col-blockoverview__link--120 path:nth-child(6) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--121 path:nth-child(1), .col-blockoverview__link--121 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--122 path:nth-child(2), .col-blockoverview__link--122 path:nth-child(3), .col-blockoverview__link--122 path:nth-child(4), .col-blockoverview__link--122 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--123 path:nth-child(2), .col-blockoverview__link--123 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--124 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.col-blockoverview__link--125 path:nth-child(1), .col-blockoverview__link--125 path:nth-child(3) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
 }
 .col-blockoverview__title {
   font-size: 1.125rem;
@@ -562,17 +1147,599 @@
     transition: background-color 0.5s;
     background-color: var(--color-orange);
   }
+  .trustblock__link--1:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--2:hover path:nth-child(4), .trustblock__link--2:hover path:nth-child(5), .trustblock__link--2:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--3:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--4:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--5:hover path:nth-child(20), .trustblock__link--5:hover path:nth-child(21), .trustblock__link--5:hover path:nth-child(22), .trustblock__link--5:hover path:nth-child(23) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--6:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--7:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--8:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--9:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .trustblock__link--10:hover path:nth-child(11) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
   .grid-blockoverview__link:hover {
     transition: background-color 0.5s;
     background-color: var(--color-orange);
+  }
+  .grid-blockoverview__link--1:hover path:nth-child(15), .grid-blockoverview__link--1:hover path:nth-child(16), .grid-blockoverview__link--1:hover path:nth-child(17) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .grid-blockoverview__link--2:hover path:nth-child(5), .grid-blockoverview__link--2:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .grid-blockoverview__link--3:hover path:nth-child(1), .grid-blockoverview__link--3:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .grid-blockoverview__link--4:hover path:nth-child(3), .grid-blockoverview__link--4:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .grid-blockoverview__link--5:hover path:nth-child(10), .grid-blockoverview__link--5:hover path:nth-child(11), .grid-blockoverview__link--5:hover path:nth-child(12) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .grid-blockoverview__link--6:hover path:nth-child(2), .grid-blockoverview__link--6:hover path:nth-child(3), .grid-blockoverview__link--6:hover path:nth-child(4), .grid-blockoverview__link--6:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .grid-blockoverview__link--7:hover path:nth-child(2), .grid-blockoverview__link--7:hover path:nth-child(3), .grid-blockoverview__link--7:hover path:nth-child(4), .grid-blockoverview__link--7:hover path:nth-child(5), .grid-blockoverview__link--7:hover path:nth-child(6), .grid-blockoverview__link--7:hover path:nth-child(7), .grid-blockoverview__link--7:hover path:nth-child(8), .grid-blockoverview__link--7:hover path:nth-child(9) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
   }
   .grid-blockoverview__icon:hover {
     transition: background-color 0.5s;
     background-color: var(--color-orange);
   }
+  .grid-blockoverview__icon--1:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .grid-blockoverview__icon--2:hover g path:nth-child(1), .grid-blockoverview__icon--2:hover g path:nth-child(2), .grid-blockoverview__icon--2:hover g path:nth-child(3), .grid-blockoverview__icon--2:hover g path:nth-child(5), .grid-blockoverview__icon--2:hover g path:nth-child(6), .grid-blockoverview__icon--2:hover g path:nth-child(7), .grid-blockoverview__icon--2:hover g path:nth-child(8) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .grid-blockoverview__icon--3:hover path:nth-child(2), .grid-blockoverview__icon--3:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
   .col-blockoverview__link:hover {
     transition: background-color 0.5s;
     background-color: var(--color-orange);
+  }
+  .col-blockoverview__link--1:hover path:nth-child(8), .col-blockoverview__link--1:hover path:nth-child(9), .col-blockoverview__link--1:hover path:nth-child(10), .col-blockoverview__link--1:hover path:nth-child(11), .col-blockoverview__link--1:hover path:nth-child(12) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--2:hover path:nth-child(7), .col-blockoverview__link--2:hover path:nth-child(8), .col-blockoverview__link--2:hover path:nth-child(9), .col-blockoverview__link--2:hover path:nth-child(10) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--3:hover path:nth-child(1), .col-blockoverview__link--3:hover path:nth-child(2), .col-blockoverview__link--3:hover path:nth-child(3), .col-blockoverview__link--3:hover path:nth-child(4), .col-blockoverview__link--3:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--4:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--5:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--6:hover path:nth-child(4), .col-blockoverview__link--6:hover path:nth-child(5), .col-blockoverview__link--6:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--7:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--8:hover path:nth-child(1), .col-blockoverview__link--8:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--9:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--10:hover path:nth-child(2), .col-blockoverview__link--10:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--11:hover path:nth-child(3), .col-blockoverview__link--11:hover path:nth-child(4), .col-blockoverview__link--11:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--12:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--13:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--14:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--15:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--16:hover path:nth-child(2), .col-blockoverview__link--16:hover path:nth-child(4), .col-blockoverview__link--16:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--17:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--18:hover path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--19:hover path:nth-child(1), .col-blockoverview__link--19:hover path:nth-child(2), .col-blockoverview__link--19:hover path:nth-child(3), .col-blockoverview__link--19:hover path:nth-child(10), .col-blockoverview__link--19:hover path:nth-child(11) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--20:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--21:hover path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--22:hover path:nth-child(2), .col-blockoverview__link--22:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--23:hover path:nth-child(3), .col-blockoverview__link--23:hover path:nth-child(4), .col-blockoverview__link--23:hover path:nth-child(5), .col-blockoverview__link--23:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--24:hover path:nth-child(2), .col-blockoverview__link--24:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--25:hover path:nth-child(3), .col-blockoverview__link--25:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--26:hover path:nth-child(1), .col-blockoverview__link--26:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--27:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--28:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--29:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--30:hover path:nth-child(3), .col-blockoverview__link--30:hover path:nth-child(4), .col-blockoverview__link--30:hover path:nth-child(5), .col-blockoverview__link--30:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--31:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--32:hover path:nth-child(2), .col-blockoverview__link--32:hover path:nth-child(3), .col-blockoverview__link--32:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--33:hover path:nth-child(2), .col-blockoverview__link--33:hover path:nth-child(4), .col-blockoverview__link--33:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--34:hover path:nth-child(1), .col-blockoverview__link--34:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--35:hover path:nth-child(2), .col-blockoverview__link--35:hover path:nth-child(3), .col-blockoverview__link--35:hover path:nth-child(4), .col-blockoverview__link--35:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--36:hover line {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--37:hover path:nth-child(8) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--38:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--39:hover path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--40:hover circle:nth-child(2), .col-blockoverview__link--40:hover circle:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--41:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--42:hover path:nth-child(4), .col-blockoverview__link--42:hover path:nth-child(5), .col-blockoverview__link--42:hover path:nth-child(6), .col-blockoverview__link--42:hover path:nth-child(7), .col-blockoverview__link--42:hover path:nth-child(8), .col-blockoverview__link--42:hover path:nth-child(9) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--43:hover path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--44:hover path:nth-child(1), .col-blockoverview__link--44:hover path:nth-child(3), .col-blockoverview__link--44:hover path:nth-child(4), .col-blockoverview__link--44:hover path:nth-child(5), .col-blockoverview__link--44:hover path:nth-child(6), .col-blockoverview__link--44:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--45:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--46:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--47:hover path:nth-child(8) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--48:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--49:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--50:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--51:hover path:nth-child(1), .col-blockoverview__link--51:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--52:hover path:nth-child(6), .col-blockoverview__link--52:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--53:hover circle {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--54:hover rect {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--55:hover path:nth-child(2), .col-blockoverview__link--55:hover path:nth-child(3) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--56:hover path:nth-child(2), .col-blockoverview__link--56:hover path:nth-child(3), .col-blockoverview__link--56:hover path:nth-child(4), .col-blockoverview__link--56:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--57:hover path:nth-child(1), .col-blockoverview__link--57:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--58:hover path:nth-child(1), .col-blockoverview__link--58:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--59:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--60:hover path:nth-child(9), .col-blockoverview__link--60:hover path:nth-child(10), .col-blockoverview__link--60:hover path:nth-child(11), .col-blockoverview__link--60:hover path:nth-child(12), .col-blockoverview__link--60:hover path:nth-child(13), .col-blockoverview__link--60:hover path:nth-child(14) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--61:hover path:nth-child(1), .col-blockoverview__link--61:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--62:hover path:nth-child(6), .col-blockoverview__link--62:hover path:nth-child(7), .col-blockoverview__link--62:hover path:nth-child(8), .col-blockoverview__link--62:hover path:nth-child(9) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--63:hover path:nth-child(1), .col-blockoverview__link--63:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--64:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--65:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--66:hover path:nth-child(6), .col-blockoverview__link--66:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--67:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--68:hover path:nth-child(1), .col-blockoverview__link--68:hover path:nth-child(2), .col-blockoverview__link--68:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--69:hover path:nth-child(1), .col-blockoverview__link--69:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--70:hover path:nth-child(2), .col-blockoverview__link--70:hover path:nth-child(3), .col-blockoverview__link--70:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--71:hover path:nth-child(1), .col-blockoverview__link--71:hover path:nth-child(2), .col-blockoverview__link--71:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--72:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--73:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--74:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--75:hover path:nth-child(2), .col-blockoverview__link--75:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--76:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--77:hover path:nth-child(4), .col-blockoverview__link--77:hover path:nth-child(5), .col-blockoverview__link--77:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--78:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--79:hover path:nth-child(2), .col-blockoverview__link--79:hover path:nth-child(3), .col-blockoverview__link--79:hover path:nth-child(4), .col-blockoverview__link--79:hover path:nth-child(5), .col-blockoverview__link--79:hover path:nth-child(6), .col-blockoverview__link--79:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--80:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--81:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--82:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--83:hover path:nth-child(2), .col-blockoverview__link--83:hover path:nth-child(3), .col-blockoverview__link--83:hover path:nth-child(4), .col-blockoverview__link--83:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--84:hover path:nth-child(2), .col-blockoverview__link--84:hover path:nth-child(3), .col-blockoverview__link--84:hover path:nth-child(4), .col-blockoverview__link--84:hover path:nth-child(5), .col-blockoverview__link--84:hover path:nth-child(5), .col-blockoverview__link--84:hover path:nth-child(6), .col-blockoverview__link--84:hover path:nth-child(7), .col-blockoverview__link--84:hover path:nth-child(8) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--85:hover path:nth-child(2), .col-blockoverview__link--85:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--86:hover circle {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--87:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--88:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--89:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--90:hover path:nth-child(1), .col-blockoverview__link--90:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--91:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--92:hover path:nth-child(1), .col-blockoverview__link--92:hover path:nth-child(3), .col-blockoverview__link--92:hover path:nth-child(4), .col-blockoverview__link--92:hover path:nth-child(5), .col-blockoverview__link--92:hover path:nth-child(6), .col-blockoverview__link--92:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--93:hover path:nth-child(2), .col-blockoverview__link--93:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--94:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--95:hover path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--96:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--97:hover path:nth-child(3), .col-blockoverview__link--97:hover path:nth-child(4), .col-blockoverview__link--97:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--98:hover rect:nth-child(3) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--99:hover path:nth-child(2), .col-blockoverview__link--99:hover path:nth-child(3), .col-blockoverview__link--99:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--100:hover path:nth-child(6), .col-blockoverview__link--100:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--101:hover circle {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+    fill: var(--color-orange);
+  }
+  .col-blockoverview__link--102:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--103:hover path:nth-child(1), .col-blockoverview__link--103:hover path:nth-child(2), .col-blockoverview__link--103:hover path:nth-child(5), .col-blockoverview__link--103:hover path:nth-child(7), .col-blockoverview__link--103:hover path:nth-child(8) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--104:hover path:nth-child(1), .col-blockoverview__link--104:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--105:hover path:nth-child(4), .col-blockoverview__link--105:hover path:nth-child(5), .col-blockoverview__link--105:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--106:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--107:hover path:nth-child(2), .col-blockoverview__link--107:hover path:nth-child(3), .col-blockoverview__link--107:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--108:hover path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--109:hover path:nth-child(3), .col-blockoverview__link--109:hover path:nth-child(4) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+  }
+  .col-blockoverview__link--110:hover path:nth-child(5), .col-blockoverview__link--110:hover path:nth-child(6), .col-blockoverview__link--110:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--111:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--112:hover path:nth-child(1), .col-blockoverview__link--112:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--113:hover path:nth-child(1), .col-blockoverview__link--113:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--114:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--115:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--116:hover path:nth-child(2), .col-blockoverview__link--116:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--117:hover path:nth-child(2), .col-blockoverview__link--117:hover path:nth-child(4), .col-blockoverview__link--117:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--118:hover path:nth-child(2), .col-blockoverview__link--118:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--119:hover circle {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--120:hover path:nth-child(4), .col-blockoverview__link--120:hover path:nth-child(5), .col-blockoverview__link--120:hover path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--121:hover path:nth-child(1), .col-blockoverview__link--121:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--122:hover path:nth-child(2), .col-blockoverview__link--122:hover path:nth-child(3), .col-blockoverview__link--122:hover path:nth-child(4), .col-blockoverview__link--122:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--123:hover path:nth-child(2), .col-blockoverview__link--123:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--124:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .col-blockoverview__link--125:hover path:nth-child(1), .col-blockoverview__link--125:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
   }
   .asidelinks__link:hover {
     color: var(--color-orange);

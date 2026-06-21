@@ -15,6 +15,44 @@
 .card-solutions__link {
   transition: background-color 0.5s;
 }
+.card-solutions__link path:nth-child(1) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-solutions__link--3 path:nth-child(1) {
+  transition: all 0.5s;
+  fill: #fff;
+}
+.card-solutions__link--4 path:nth-child(1), .card-solutions__link--4 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-solutions__link--5 path:nth-child(1), .card-solutions__link--5 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-solutions__link--6 path:nth-child(1), .card-solutions__link--6 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-bg);
+}
+.card-solutions__link--7 path:nth-child(1), .card-solutions__link--7 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-solutions__link--8 path:nth-child(1) {
+  fill: #fff;
+}
+.card-solutions__link--8 path:nth-child(4), .card-solutions__link--8 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-solutions__link--9 path:nth-child(3) {
+  fill: #fff;
+}
+.card-solutions__link--9 path:nth-child(1), .card-solutions__link--9 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
 .card-solutions__body {
   display: flex;
   flex-direction: column;
@@ -109,6 +147,67 @@
   .card-solutions__link:hover {
     transition: background-color 0.5s;
     background-color: var(--color-orange);
+  }
+  .card-solutions__link:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-solutions__link:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: #fff;
+  }
+  .card-solutions__link--3:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: #fff;
+  }
+  .card-solutions__link--3:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-solutions__link--4:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: #fff;
+  }
+  .card-solutions__link--4:hover path:nth-child(1), .card-solutions__link--4:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-solutions__link--5:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: #fff;
+  }
+  .card-solutions__link--5:hover path:nth-child(1), .card-solutions__link--5:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-solutions__link--6:hover path:nth-child(1), .card-solutions__link--6:hover path:nth-child(2) {
+    transition: all 0.5s;
+    stroke: var(--color-bg);
+    fill: var(--color-orange);
+  }
+  .card-solutions__link--7:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: #fff;
+  }
+  .card-solutions__link--7:hover path:nth-child(1), .card-solutions__link--7:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-solutions__link--8:hover path:nth-child(4), .card-solutions__link--8:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-solutions__link--8:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: #fff;
+  }
+  .card-solutions__link--9:hover path:nth-child(1), .card-solutions__link--9:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-solutions__link--9:hover path:nth-child(3) {
+    transition: all 0.5s;
+    fill: #fff;
   }
   .card-solutions__link-title:hover {
     color: var(--color-orange);

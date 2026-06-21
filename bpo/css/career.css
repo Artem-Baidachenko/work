@@ -159,6 +159,22 @@
   border-radius: 0.6875rem;
   transition: background-color 0.5s;
 }
+.what-value__link--1 path:nth-child(2) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.what-value__link--2 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.what-value__link--3 path:nth-child(6), .what-value__link--3 path:nth-child(7) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.what-value__link--4 path:nth-child(3), .what-value__link--4 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
 .what-value__title {
   line-height: 1.25;
   font-weight: 600;
@@ -179,6 +195,30 @@
   background-color: var(--color-bg);
   border-radius: 0.625rem;
   transition: background-color 0.5s;
+}
+.benefits-career__item .benefits-career__link--1 path:nth-child(11), .benefits-career__item .benefits-career__link--1 path:nth-child(12) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.benefits-career__item .benefits-career__link--2 path:nth-child(30), .benefits-career__item .benefits-career__link--2 path:nth-child(31), .benefits-career__item .benefits-career__link--2 path:nth-child(32), .benefits-career__item .benefits-career__link--2 path:nth-child(32), .benefits-career__item .benefits-career__link--2 path:nth-child(33), .benefits-career__item .benefits-career__link--2 path:nth-child(34), .benefits-career__item .benefits-career__link--2 path:nth-child(35) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.benefits-career__item .benefits-career__link--3 path:nth-child(10) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.benefits-career__item .benefits-career__link--4 path:nth-child(13) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.benefits-career__item .benefits-career__link--5 path:nth-child(19), .benefits-career__item .benefits-career__link--5 path:nth-child(20), .benefits-career__item .benefits-career__link--5 path:nth-child(21), .benefits-career__item .benefits-career__link--5 path:nth-child(22), .benefits-career__item .benefits-career__link--5 path:nth-child(23), .benefits-career__item .benefits-career__link--5 path:nth-child(24), .benefits-career__item .benefits-career__link--5 path:nth-child(25) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.benefits-career__item .benefits-career__link--6 path:nth-child(11) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
 }
 .benefits-career__text {
   color: #fff;
@@ -1416,9 +1456,49 @@
     transition: background-color 0.5s;
     background-color: var(--color-orange);
   }
+  .what-value__link--1:hover path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .what-value__link--2:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .what-value__link--3:hover path:nth-child(6), .what-value__link--3:hover path:nth-child(7) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .what-value__link--4:hover path:nth-child(3), .what-value__link--4:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
   .benefits-career__item:hover {
     transition: background-color 0.5s;
     background-color: var(--color-orange);
+  }
+  .benefits-career__item .benefits-career__link--1:hover path:nth-child(11), .benefits-career__item .benefits-career__link--1:hover path:nth-child(12) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .benefits-career__item .benefits-career__link--2:hover path:nth-child(30), .benefits-career__item .benefits-career__link--2:hover path:nth-child(31), .benefits-career__item .benefits-career__link--2:hover path:nth-child(32), .benefits-career__item .benefits-career__link--2:hover path:nth-child(32), .benefits-career__item .benefits-career__link--2:hover path:nth-child(33), .benefits-career__item .benefits-career__link--2:hover path:nth-child(34), .benefits-career__item .benefits-career__link--2:hover path:nth-child(35) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .benefits-career__item .benefits-career__link--3:hover path:nth-child(10) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .benefits-career__item .benefits-career__link--4:hover path:nth-child(13) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .benefits-career__item .benefits-career__link--5:hover path:nth-child(19), .benefits-career__item .benefits-career__link--5:hover path:nth-child(20), .benefits-career__item .benefits-career__link--5:hover path:nth-child(21), .benefits-career__item .benefits-career__link--5:hover path:nth-child(22), .benefits-career__item .benefits-career__link--5:hover path:nth-child(23), .benefits-career__item .benefits-career__link--5:hover path:nth-child(24), .benefits-career__item .benefits-career__link--5:hover path:nth-child(25) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .benefits-career__item .benefits-career__link--6:hover path:nth-child(11) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
   }
   .card-meet__image:hover {
     scale: 1.02;

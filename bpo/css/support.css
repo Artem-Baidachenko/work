@@ -51,6 +51,32 @@
 .card-support__link {
   transition: background-color 0.5s;
 }
+.card-support__link--1 path:nth-child(1) {
+  fill: #fff;
+}
+.card-support__link--1 path:nth-child(2), .card-support__link--1 path:nth-child(3), .card-support__link--1 path:nth-child(4) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-support__link--2 path:nth-child(1) {
+  fill: var(--color-orange);
+}
+.card-support__link--2 path:nth-child(2), .card-support__link--2 path:nth-child(3), .card-support__link--2 path:nth-child(4), .card-support__link--2 path:nth-child(5), .card-support__link--2 path:nth-child(6), .card-support__link--2 path:nth-child(7), .card-support__link--2 path:nth-child(8), .card-support__link--2 path:nth-child(9), .card-support__link--2 path:nth-child(10), .card-support__link--2 path:nth-child(11), .card-support__link--2 path:nth-child(12), .card-support__link--2 path:nth-child(13), .card-support__link--2 path:nth-child(14), .card-support__link--2 path:nth-child(15), .card-support__link--2 path:nth-child(16) {
+  transition: all 0.5s;
+  fill: #fff;
+}
+.card-support__link--3 path:nth-child(5), .card-support__link--3 path:nth-child(7), .card-support__link--3 path:nth-child(8) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-support__link--4 path:nth-child(6), .card-support__link--4 path:nth-child(7), .card-support__link--4 path:nth-child(8), .card-support__link--4 path:nth-child(9) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
+.card-support__link--5 path:nth-child(2), .card-support__link--5 path:nth-child(3), .card-support__link--5 path:nth-child(4), .card-support__link--5 path:nth-child(5) {
+  transition: all 0.5s;
+  fill: var(--color-orange);
+}
 .card-support__title {
   font-weight: 600;
 }
@@ -448,5 +474,28 @@
   .card-support__link:hover {
     transition: background-color 0.5s;
     background-color: var(--color-orange);
+  }
+  .card-support__link--1:hover path:nth-child(2), .card-support__link--1:hover path:nth-child(3), .card-support__link--1:hover path:nth-child(4) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-support__link--1:hover path:nth-child(1) {
+    transition: all 0.5s;
+    fill: #fff;
+  }
+  .card-support__link--2:hover path:nth-child(1) {
+    fill: var(--color-bg);
+  }
+  .card-support__link--3:hover path:nth-child(5), .card-support__link--3:hover path:nth-child(7), .card-support__link--3:hover path:nth-child(8) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-support__link--4:hover path:nth-child(3), .card-support__link--4:hover path:nth-child(4), .card-support__link--4:hover path:nth-child(5), .card-support__link--4:hover path:nth-child(6), .card-support__link--4:hover path:nth-child(7), .card-support__link--4:hover path:nth-child(8), .card-support__link--4:hover path:nth-child(9) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .card-support__link--5:hover path:nth-child(2), .card-support__link--5:hover path:nth-child(3), .card-support__link--5:hover path:nth-child(4), .card-support__link--5:hover path:nth-child(5) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
   }
 }

@@ -172,6 +172,9 @@
   gap: 1rem;
   transition: background-color 0.5s;
 }
+.advantages-about__image path {
+  transition: all 0.5s;
+}
 .advantages-about__text {
   color: #fff;
   font-size: 1.125rem;
@@ -1377,6 +1380,38 @@
   .advantages-about__item:hover {
     transition: background-color 0.5s;
     background-color: var(--color-orange);
+  }
+  .advantages-about__item:hover .advantages-about__image--1 g path:nth-child(1) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .advantages-about__item:hover .advantages-about__image--2 path:nth-child(1), .advantages-about__item:hover .advantages-about__image--2 path:nth-child(2), .advantages-about__item:hover .advantages-about__image--2 path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .advantages-about__item:hover .advantages-about__image--3 path:nth-child(2), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(3), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(4), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(5), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(6), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(7), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(8), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(9), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(10), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(11), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(12), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(13), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(14), .advantages-about__item:hover .advantages-about__image--3 path:nth-child(15) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .advantages-about__item:hover .advantages-about__image--4 path:nth-child(1), .advantages-about__item:hover .advantages-about__image--4 path:nth-child(2) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .advantages-about__item:hover .advantages-about__image--5 path:nth-child(2), .advantages-about__item:hover .advantages-about__image--5 path:nth-child(3) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .advantages-about__item:hover .advantages-about__image--6 path:nth-child(1), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(2), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(3), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(4), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(5), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(6), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(7), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(8), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(9), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(10), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(11), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(12), .advantages-about__item:hover .advantages-about__image--6 path:nth-child(13) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .advantages-about__item:hover .advantages-about__image--7 path:nth-child(1), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(2), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(3), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(4), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(5), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(6), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(7), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(8), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(9), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(10), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(11), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(12), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(13), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(14), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(15), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(16), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(17), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(18), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(19), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(20), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(21), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(22), .advantages-about__item:hover .advantages-about__image--7 path:nth-child(23) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
+  }
+  .advantages-about__item:hover .advantages-about__image--8 path:nth-child(1), .advantages-about__item:hover .advantages-about__image--8 path:nth-child(2), .advantages-about__item:hover .advantages-about__image--8 path:nth-child(3), .advantages-about__item:hover .advantages-about__image--8 path:nth-child(4), .advantages-about__item:hover .advantages-about__image--8 path:nth-child(5), .advantages-about__item:hover .advantages-about__image--8 path:nth-child(6) {
+    transition: all 0.5s;
+    fill: var(--color-bg);
   }
   .card-portfolio__image:hover {
     scale: 1.03;

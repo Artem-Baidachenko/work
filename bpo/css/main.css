@@ -1166,7 +1166,7 @@ body {
     font-size: clamp( 1rem , 0.96190476190625rem  +  0.1904761905vw , 1.125rem );
   }
   .button--padding {
-    padding-block: clamp( 1rem , 0.8857142857125rem  +  0.5714285714vw , 1.375rem );
+    padding-block: clamp( 1rem , 0.9238095238125rem  +  0.380952381vw , 1.25rem );
   }
   .button--padding {
     padding-inline: clamp( 1.5rem , 0.75714285714375rem  +  3.7142857143vw , 3.9375rem );
@@ -1241,7 +1241,7 @@ body {
     font-size: 1.125rem;
   }
   .button--padding {
-    padding-block: 1.375rem;
+    padding-block: 1.25rem;
   }
   .button--padding {
     padding-inline: 3.9375rem;
