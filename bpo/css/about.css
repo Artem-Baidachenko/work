@@ -480,13 +480,19 @@
 }
 @media (width < 48em) {
   .info-about__title {
-    font-size: 4.375rem;
+    font-size: 4.75rem;
   }
   .info-about__list {
     padding-left: 6.25e-8rem;
   }
+  .title-vision {
+    font-size: 4.5rem;
+  }
+  .title-mission {
+    font-size: 3.75rem;
+  }
   .title-values {
-    font-size: 4.75rem;
+    font-size: 4rem;
   }
   .team-career__button--prev {
     background-color: rgba(237, 237, 237, 0.8);
@@ -731,7 +737,7 @@
 }
 @media (width >= 48em) and (width < 120em) {
   .info-about__title {
-    font-size: clamp( 4.375rem , 1.25rem  +  6.5104166667vw , 9.0625rem );
+    font-size: clamp( 4.375rem , 1.25rem  +  6.5104166667vw , 7.75rem );
   }
   .info-about__list {
     padding-left: clamp( 6.25e-8rem , -1.4166665625rem  +  2.9513888021vw , 2.125rem );
