@@ -17,7 +17,7 @@ textarea {
   background-color: #fff;
   line-height: 1.5;
   caret-color: inherit;
-  color: #A1A1A1;
+  color: var(--main-color);
 }
 .input-popup {
   border-radius: 0.75rem;
@@ -27,7 +27,7 @@ textarea {
   background-color: #F0F0F0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #a0a0a0;
+  color: var(--color-black);
   caret-color: inherit;
 }
 
@@ -40,7 +40,20 @@ textarea {
   background-color: #F0F0F0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #a0a0a0;
+  color: var(--color-black);
+  caret-color: inherit;
+}
+
+.input-popup-feedback {
+  border-radius: 0.75rem;
+  width: 100%;
+  margin-inline: auto;
+  display: block;
+  padding: 1.0625rem 1.3125rem;
+  background-color: #F0F0F0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-black);
   caret-color: inherit;
 }
 
@@ -52,6 +65,10 @@ textarea {
   line-height: 1.5;
   color: var(--main-color);
   caret-color: inherit;
+}
+.input-popup-contacts--speciality {
+  font-weight: 700;
+  color: var(--main-color);
 }
 
 .input[placeholder]:not([data-fls-placeholder-nohiden])::placeholder {

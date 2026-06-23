@@ -3,12 +3,23 @@
   max-width: 64rem;
 }
 .financial .blockhero {
+  position: relative;
   padding-top: 1.25rem;
 }
 .financial .blockhero__container {
   max-width: 63.8125rem;
   grid-template-columns: auto 1fr;
   gap: 1.1875rem;
+}
+.financial .blockhero__container::after {
+  content: "";
+  background: url("../assets/img/communications/blockhero/decor.webp") left bottom/100% repeat-x;
+  position: absolute;
+  z-index: -1;
+  bottom: 7.125rem;
+  left: -42%;
+  width: 100rem;
+  height: 100%;
 }
 .financial .blockhead__title--big {
   max-width: 25.4375rem;
@@ -253,6 +264,16 @@
   text-align: center;
   justify-content: center;
 }
+@media (width < 80em) {
+  .financial .blockhero__container::after {
+    bottom: 6.25rem;
+  }
+}
+@media (width < 71.25em) {
+  .financial .blockhero__container::after {
+    bottom: 4.0625rem;
+  }
+}
 @media (max-width: 62em) {
   .financial .blockhero__container {
     grid-template-columns: 1fr;
@@ -270,6 +291,12 @@
   .financial .blockhero {
     display: flex;
     flex-direction: column;
+  }
+  .financial .blockhero__container::after {
+    bottom: 0;
+  }
+  .financial .blockhero__container::after {
+    display: none;
   }
   .financial .blockhead__title--big {
     max-width: 100%;

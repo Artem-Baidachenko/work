@@ -83,7 +83,7 @@
 }
 @media (width < 20em) {
   .questions {
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.875rem;
   }
   .questions__nav:not(:last-child) {
     margin-bottom: 1.25rem;
@@ -97,7 +97,7 @@
 }
 @media (width >= 20em) and (width < 85.625em) {
   .questions {
-    padding-bottom: clamp( 2.5rem , 1.64285714285625rem  +  4.2857142857vw , 5.3125rem );
+    padding-bottom: clamp( 1.875rem , 1.684523809525rem  +  0.9523809524vw , 2.5rem );
   }
   .questions__nav:not(:last-child) {
     margin-bottom: clamp( 1.25rem , 0.85rem  +  2vw , 2.5625rem );
@@ -111,7 +111,7 @@
 }
 @media (width >= 85.625em) {
   .questions {
-    padding-bottom: 5.3125rem;
+    padding-bottom: 2.5rem;
   }
   .questions__nav:not(:last-child) {
     margin-bottom: 2.5625rem;

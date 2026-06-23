@@ -2,6 +2,7 @@
 .cookiespolicy {
   max-width: 82.1875rem;
   margin: 0 auto;
+  padding-bottom: 1.875rem;
 }
 .cookiespolicy__body {
   padding-top: 1.625rem;
@@ -134,9 +135,6 @@
   }
 }
 @media (width < 20em) {
-  .cookiespolicy {
-    padding-bottom: 2.5rem;
-  }
   .cookiespolicy__body {
     column-gap: 1.25rem;
   }
@@ -160,9 +158,6 @@
   }
 }
 @media (width >= 20em) and (width < 85.625em) {
-  .cookiespolicy {
-    padding-bottom: clamp( 2.5rem , 0.95714285714375rem  +  7.7142857143vw , 7.5625rem );
-  }
   .cookiespolicy__body {
     column-gap: clamp( 1.25rem , -0.19761904761875rem  +  7.2380952381vw , 6rem );
   }
@@ -186,9 +181,6 @@
   }
 }
 @media (width >= 85.625em) {
-  .cookiespolicy {
-    padding-bottom: 7.5625rem;
-  }
   .cookiespolicy__body {
     column-gap: 6rem;
   }

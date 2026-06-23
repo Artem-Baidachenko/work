@@ -34,10 +34,10 @@
 }
 @media (width < 20em) {
   .impressum-info {
-    padding-top: 2.5rem;
+    padding-top: 1.875rem;
   }
   .impressum-info {
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.875rem;
   }
   .impressum-info__container {
     column-gap: 1.25rem;
@@ -60,10 +60,10 @@
 }
 @media (width >= 20em) and (width < 85.625em) {
   .impressum-info {
-    padding-top: clamp( 2.5rem , 1.8142857142875rem  +  3.4285714286vw , 4.75rem );
+    padding-top: clamp( 1.875rem , 0.9988095238125rem  +  4.380952381vw , 4.75rem );
   }
   .impressum-info {
-    padding-bottom: clamp( 2.5rem , 1.28095238095rem  +  6.0952380952vw , 6.5rem );
+    padding-bottom: clamp( 1.875rem , 0.465476190475rem  +  7.0476190476vw , 6.5rem );
   }
   .impressum-info__container {
     column-gap: clamp( 1.25rem , 0.1642857142875rem  +  5.4285714286vw , 4.8125rem );

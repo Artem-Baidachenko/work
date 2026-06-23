@@ -3,12 +3,23 @@
   max-width: 64rem;
 }
 .automation .blockhero {
+  position: relative;
   padding-top: 1.25rem;
 }
 .automation .blockhero__container {
   max-width: 63.8125rem;
   grid-template-columns: auto 1fr;
   gap: 1.1875rem;
+}
+.automation .blockhero__container::after {
+  content: "";
+  background: url("../assets/img/communications/blockhero/decor.webp") left bottom/100% repeat-x;
+  position: absolute;
+  z-index: -1;
+  bottom: 15rem;
+  left: -42%;
+  width: 100rem;
+  height: 100%;
 }
 .automation .blockhead__title--big {
   max-width: 29.9375rem;
@@ -266,6 +277,16 @@
   text-align: center;
   justify-content: center;
 }
+@media (width < 80em) {
+  .automation .blockhero__container::after {
+    bottom: 15.625rem;
+  }
+}
+@media (width < 71.25em) {
+  .automation .blockhero__container::after {
+    bottom: 13.75rem;
+  }
+}
 @media (max-width: 62em) {
   .automation .blockhero__container {
     grid-template-columns: 1fr;
@@ -283,6 +304,12 @@
   .automation .blockhero {
     display: flex;
     flex-direction: column;
+  }
+  .automation .blockhero__container::after {
+    bottom: 0;
+  }
+  .automation .blockhero__container::after {
+    display: none;
   }
 }
 @media (width < 34.375em) {

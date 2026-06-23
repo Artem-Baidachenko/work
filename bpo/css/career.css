@@ -764,6 +764,12 @@
   left: 0.3125rem;
   top: 0rem;
 }
+@media (width <= 62em) {
+  .reviews__actions {
+    top: 92%;
+    margin-inline: 0.0625rem;
+  }
+}
 @media (max-width: 62em) {
   .mission__item {
     padding: 1.875rem;
@@ -775,15 +781,19 @@
   }
   .reviews__button--prev {
     position: relative;
+    margin-left: 0.3125rem;
   }
   .reviews__button--next {
     position: relative;
+    margin-right: 0.3125rem;
   }
   .team-career__button--prev {
     position: relative;
+    margin-left: 0.3125rem;
   }
   .team-career__button--next {
     position: relative;
+    margin-right: 0.3125rem;
   }
 }
 @media (width < 58.1875em) {
@@ -872,15 +882,12 @@
   }
 }
 @media (width <= 30em) {
-  .reviews__actions {
-    top: 30%;
-  }
   .reviews__button {
     width: 3.375rem;
     height: 3.375rem;
   }
   .team-career__actions {
-    top: 30%;
+    top: 50%;
   }
   .team-career__button {
     width: 3.375rem;

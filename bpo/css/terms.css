@@ -2,6 +2,7 @@
 .terms {
   max-width: 82.1875rem;
   margin: 0 auto;
+  padding-bottom: 1.875rem;
 }
 .terms__body {
   padding-top: 1.625rem;
@@ -19,15 +20,15 @@
   margin-bottom: 1.625rem;
 }
 .terms-info__container h1 {
-  font-weight: 600;
-}
-.terms-info__container h1 {
   line-height: 1.22;
   text-transform: uppercase;
   color: var(--color-black);
 }
 .terms-info__container h1:not(:last-child) {
   margin-bottom: 0.8125rem;
+}
+.terms-info__container h1 span {
+  font-weight: 600;
 }
 .terms-info__container time {
   font-size: 1rem;
@@ -36,15 +37,21 @@
   color: #717182;
 }
 .terms-info__container h2 {
-  font-weight: 500;
+  color: rgba(10, 10, 10, 0.8);
+  font-weight: 800;
 }
 .terms-info__container h2 {
   line-height: 1.5;
   letter-spacing: -0.028125rem;
-  color: #0a0a0a;
 }
 .terms-info__container h2:not(:last-child) {
   margin-bottom: 0.9375rem;
+}
+.terms-info__container h2#welcome {
+  font-weight: 400;
+}
+.terms-info__container h2#welcome span {
+  font-weight: 600;
 }
 .terms-info__container h3 {
   font-weight: 700;
@@ -89,9 +96,6 @@
   }
 }
 @media (width < 20em) {
-  .terms {
-    padding-bottom: 2.5rem;
-  }
   .terms__body {
     column-gap: 1.25rem;
   }
@@ -103,9 +107,6 @@
   }
 }
 @media (width >= 20em) and (width < 85.625em) {
-  .terms {
-    padding-bottom: clamp( 2.5rem , 0.95714285714375rem  +  7.7142857143vw , 7.5625rem );
-  }
   .terms__body {
     column-gap: clamp( 1.25rem , -0.19761904761875rem  +  7.2380952381vw , 6rem );
   }
@@ -117,9 +118,6 @@
   }
 }
 @media (width >= 85.625em) {
-  .terms {
-    padding-bottom: 7.5625rem;
-  }
   .terms__body {
     column-gap: 6rem;
   }

@@ -2,6 +2,7 @@
 .disclaimer {
   max-width: 82.1875rem;
   margin: 0 auto;
+  padding-bottom: 1.875rem;
 }
 .disclaimer__body {
   padding-top: 1.625rem;
@@ -21,12 +22,12 @@
   color: var(--color-black);
 }
 .disclaimer-info__container h2 {
-  font-weight: 500;
+  color: rgba(10, 10, 10, 0.8);
+  font-weight: 800;
 }
 .disclaimer-info__container h2 {
   line-height: 1.5;
   letter-spacing: -0.028125rem;
-  color: #0a0a0a;
 }
 .disclaimer-info__container h2:not(:last-child) {
   margin-bottom: 1.0625rem;
@@ -84,9 +85,6 @@
   }
 }
 @media (width < 20em) {
-  .disclaimer {
-    padding-bottom: 2.5rem;
-  }
   .disclaimer__body {
     column-gap: 1.25rem;
   }
@@ -107,9 +105,6 @@
   }
 }
 @media (width >= 20em) and (width < 85.625em) {
-  .disclaimer {
-    padding-bottom: clamp( 2.5rem , 0.95714285714375rem  +  7.7142857143vw , 7.5625rem );
-  }
   .disclaimer__body {
     column-gap: clamp( 1.25rem , -0.19761904761875rem  +  7.2380952381vw , 6rem );
   }
@@ -130,9 +125,6 @@
   }
 }
 @media (width >= 85.625em) {
-  .disclaimer {
-    padding-bottom: 7.5625rem;
-  }
   .disclaimer__body {
     column-gap: 6rem;
   }

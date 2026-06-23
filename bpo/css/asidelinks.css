@@ -870,6 +870,19 @@
 .asidelinks__link.active {
   color: var(--color-orange);
 }
+@media (width <= 62em) {
+  .asidelinks summary {
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+  }
+  .asidelinks summary::after {
+    display: none;
+  }
+  .asidelinks details[open] summary::after {
+    transform: rotate(-180deg);
+  }
+}
 @media (max-width: 62em) {
   .asidelinks {
     position: relative;
@@ -878,6 +891,8 @@
     top: 0;
     margin-top: 0rem;
     order: 1;
+    margin-inline: 0.625rem;
+    width: auto;
   }
 }
 @media (width < 62em) {
@@ -885,6 +900,7 @@
     display: flex;
     align-items: center;
     gap: 0.9375rem;
+    width: 100%;
     justify-content: space-between;
   }
   .--spoller-init .asidelinks__title {
@@ -928,6 +944,11 @@
     height: 1.5rem;
   }
 }
+@media (width < 48em) {
+  .counters__container {
+    gap: 0.3125rem;
+  }
+}
 @media (width < 31.25em) {
   .benefits__item {
     flex-direction: column;
@@ -935,7 +956,7 @@
 }
 @media (width < 23.75em) {
   .card-blockoverview__link {
-    height: 10.625rem;
+    height: 10.9375rem;
   }
 }
 @media (width < 20em) {
@@ -955,7 +976,7 @@
     font-size: 1rem;
   }
   .counters {
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.875rem;
   }
   .counter__item {
     font-size: 1.375rem;
@@ -1023,7 +1044,7 @@
     font-size: clamp( 1rem , 0.9238095238125rem  +  0.380952381vw , 1.25rem );
   }
   .counters {
-    padding-bottom: clamp( 2.5rem , 1.75714285714375rem  +  3.7142857143vw , 4.9375rem );
+    padding-bottom: clamp( 1.875rem , 0.94166666666875rem  +  4.6666666667vw , 4.9375rem );
   }
   .counter__item {
     font-size: clamp( 1.375rem , 1.03214285714375rem  +  1.7142857143vw , 2.5rem );

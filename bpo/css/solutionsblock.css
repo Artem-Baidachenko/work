@@ -203,6 +203,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(18.75rem, 100%), 1fr));
 }
+.solutions-block__column--three {
+  grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+}
 .items-solutions__card {
   display: flex;
   align-items: center;
