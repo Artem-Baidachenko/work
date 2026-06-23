@@ -169,6 +169,7 @@
   display: flex;
   justify-content: space-between;
   gap: 1.25rem;
+  padding-inline: 0.3125rem;
 }
 .team-career__button {
   display: flex;
@@ -486,12 +487,6 @@
   .info-about__title {
     font-size: 4.6875rem;
   }
-  .title-mission{
-    font-size: 65px;
-  }
-  .title-values {
-    font-size: 68px;
-  }
   .info-about__list {
     padding-left: 6.25e-8rem;
   }
@@ -556,16 +551,6 @@
 @media (width < 30em) {
   .team-career__actions {
     top: 30%;
-  }
-}
-@media (width < 21.25rem){
-  .info-about__item {
-    flex-direction: column;
-    align-items: center;
-  }
-  .info-about__item:nth-child(even) {
-    flex-direction: column;
-    align-items: center;
   }
 }
 @media (width < 20em) {
@@ -750,9 +735,6 @@
   .info-about__title {
     font-size: clamp( 4.6875rem , 1.77083333333125rem  +  6.0763888889vw , 9.0625rem );
   }
-  .title-vision {
-    font-size: clamp( 4.6875rem , 1.77083333333125rem  +  6.0763888889vw , 7.8125rem );
-  }
   .info-about__list {
     padding-left: clamp( 6.25e-8rem , -1.4166665625rem  +  2.9513888021vw , 2.125rem );
   }
@@ -857,10 +839,6 @@
   }
   .info-about__title {
     font-size: 9.0625rem;
-  }
-  .title-vision {
-    font-size: 7.8125rem;
-    /* font-size: clamp( 4.6875rem , 1.77083333333125rem  +  6.0763888889vw , 7.8125rem ); */
   }
   .info-about__list {
     padding-left: 2.125rem;
