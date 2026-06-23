@@ -1,4 +1,4 @@
-import "./checkbox.js";
+import "./popup.js";
 import "./main.js";
 import "./asidelinks.js";
 /* empty css      */

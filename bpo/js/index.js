@@ -1,8 +1,7 @@
-import "./checkbox.js";
+import "./popup.js";
 import { a as getHash, c as slideDown, l as slideUp, r as dataMediaQueries, s as setHash } from "./main.js";
 /* empty css      */
 /* empty css          */
-/* empty css      */
 import "./more.js";
 /* empty css          */
 /* empty css              */
@@ -104,4 +103,24 @@ function tabs() {
 	}
 }
 window.addEventListener("load", tabs);
+//#endregion
+//#region src/components/pages/index/index.js
+document.addEventListener("DOMContentLoaded", function() {
+	const tabs = document.querySelector("[data-fls-tabs]");
+	if (!tabs) return;
+	const buttons = tabs.querySelectorAll("[data-fls-tabs-titles] .tabs__title");
+	const bodies = tabs.querySelectorAll(".tabs__content .tabs__body");
+	function setActiveTab(index) {
+		bodies.forEach((body, i) => {
+			if (i === index) body.style.display = "block";
+			else body.style.display = "none";
+		});
+	}
+	setActiveTab(0);
+	buttons.forEach((btn, index) => {
+		btn.addEventListener("click", () => {
+			setActiveTab(index);
+		});
+	});
+});
 //#endregion
