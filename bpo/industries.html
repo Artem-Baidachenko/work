@@ -5,19 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Industries</title>
-		<script type="module" crossorigin="" src="./js/industries.js?v=1782041062867"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1782041062867">
-		<link rel="modulepreload" crossorigin="" href="./js/checkbox.js?v=1782041062867">
-		<link rel="modulepreload" crossorigin="" href="./js/more.js?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/checkbox.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/more.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/industries.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/blockhead.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/blockhero.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/input.css?v=1782041062867">
-		<link rel="stylesheet" crossorigin="" href="./css/popup.css?v=1782041062867">
+		<script type="module" crossorigin="" src="./js/industries.js?v=1782197981806"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1782197981806">
+		<link rel="modulepreload" crossorigin="" href="./js/popup.js?v=1782197981806">
+		<link rel="modulepreload" crossorigin="" href="./js/more.js?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/popup.css?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/more.css?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/industries.css?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/blockhead.css?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/blockhero.css?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1782197981806">
+		<link rel="stylesheet" crossorigin="" href="./css/input.css?v=1782197981806">
 		<link rel="preload" as="style" href="./css/webfonts.css">
 		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.css">
 	</head>
@@ -32,9 +31,11 @@
 					</a>
 					<div class="header__menu menu">
 						<nav class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item">
-									<a target="_blank" href="services.html" class="menu__link">Services</a>
+							<ul data-fls-spollers="992" class="menu__list">
+								<details class="menu__item">
+									<summary>
+										<a target="_blank" href="services.html" class="menu__link">Services</a>
+									</summary>
 									<div class="menu__sub-menu sub-menu">
 										<ul class="sub-menu__list">
 											<li class="sub-menu__item">
@@ -66,9 +67,11 @@
 											</li>
 										</ul>
 									</div>
-								</li>
-								<li class="menu__item">
-									<a target="_blank" href="industries.html" class="menu__link">Industries</a>
+								</details>
+								<details class="menu__item">
+									<summary>
+										<a target="_blank" href="industries.html" class="menu__link">Industries</a>
+									</summary>
 									<div class="menu__sub-menu sub-menu">
 										<ul class="sub-menu__list">
 											<li class="sub-menu__item">
@@ -91,7 +94,7 @@
 											</li>
 										</ul>
 									</div>
-								</li>
+								</details>
 								<li class="menu__item">
 									<a target="_blank" href="career.html" class="menu__link">Career Page</a>
 								</li>
@@ -1451,7 +1454,7 @@
 									<input data-fls-input="" autocomplete="off" type="text" name="form[email]" placeholder="Email*" data-fls-form-errtext="Помилка" class="form-popup-contacts__input input-popup-contacts" required>
 								</div>
 								<div class="form-popup-contacts__line">
-									<input data-fls-input="" autocomplete="off" type="text" name="form[]" placeholder="Dog trainer" class="form-popup-contacts__input input-popup-contacts">
+									<input data-fls-input="" autocomplete="off" type="text" name="form[]" placeholder="Dog trainer" class="form-popup-contacts__input input-popup-contacts input-popup-contacts--speciality">
 								</div>
 							</div>
 							<div class="form-popup-contacts__txta">

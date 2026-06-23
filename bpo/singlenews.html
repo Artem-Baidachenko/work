@@ -5,12 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Single News</title>
-		<script type="module" crossorigin="" src="./js/singlenews.js?v=1782041062866"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1782041062866">
-		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1782041062866">
-		<link rel="stylesheet" crossorigin="" href="./css/singlenews.css?v=1782041062866">
-		<link rel="stylesheet" crossorigin="" href="./css/blockhead.css?v=1782041062866">
-		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1782041062866">
+		<script type="module" crossorigin="" src="./js/singlenews.js?v=1782197981808"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1782197981808">
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1782197981808">
+		<link rel="stylesheet" crossorigin="" href="./css/singlenews.css?v=1782197981808">
+		<link rel="stylesheet" crossorigin="" href="./css/blockhead.css?v=1782197981808">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1782197981808">
 		<link rel="preload" as="style" href="./css/webfonts.css">
 		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.css">
 	</head>
@@ -25,9 +25,11 @@
 					</a>
 					<div class="header__menu menu">
 						<nav class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item">
-									<a target="_blank" href="services.html" class="menu__link">Services</a>
+							<ul data-fls-spollers="992" class="menu__list">
+								<details class="menu__item">
+									<summary>
+										<a target="_blank" href="services.html" class="menu__link">Services</a>
+									</summary>
 									<div class="menu__sub-menu sub-menu">
 										<ul class="sub-menu__list">
 											<li class="sub-menu__item">
@@ -59,9 +61,11 @@
 											</li>
 										</ul>
 									</div>
-								</li>
-								<li class="menu__item">
-									<a target="_blank" href="industries.html" class="menu__link">Industries</a>
+								</details>
+								<details class="menu__item">
+									<summary>
+										<a target="_blank" href="industries.html" class="menu__link">Industries</a>
+									</summary>
 									<div class="menu__sub-menu sub-menu">
 										<ul class="sub-menu__list">
 											<li class="sub-menu__item">
@@ -84,7 +88,7 @@
 											</li>
 										</ul>
 									</div>
-								</li>
+								</details>
 								<li class="menu__item">
 									<a target="_blank" href="career.html" class="menu__link">Career Page</a>
 								</li>
