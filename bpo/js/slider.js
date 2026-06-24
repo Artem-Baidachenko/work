@@ -3863,6 +3863,7 @@ function initSliders() {
 		observeParents: true,
 		slidesPerView: 1,
 		spaceBetween: 30,
+		autoHeight: true,
 		speed: 800,
 		loop: true,
 		pagination: {

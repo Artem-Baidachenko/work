@@ -1,4 +1,4 @@
-import { c as slideDown, l as slideUp, r as dataMediaQueries } from "./main.js";
+import { c as slideUp, n as dataMediaQueries, s as slideDown } from "./popup.js";
 //#region src/components/layout/showmore/showmore.js
 function showMore() {
 	const showMoreBlocks = document.querySelectorAll("[data-fls-showmore]");

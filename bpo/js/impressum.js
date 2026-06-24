@@ -1,2 +1,2 @@
-import "./main.js";
+import "./popup.js";
 /* empty css           */

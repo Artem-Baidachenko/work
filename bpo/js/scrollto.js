@@ -1,4 +1,4 @@
-import { a as getHash, n as bodyUnlock, o as gotoBlock } from "./main.js";
+import { a as gotoBlock, i as getHash, t as bodyUnlock } from "./popup.js";
 //#region src/components/effects/scrollto/scrollto.js
 function pageNavigation() {
 	document.addEventListener("click", pageNavigationAction);

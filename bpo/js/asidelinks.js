@@ -1,4 +1,4 @@
-import { i as getDigFormat } from "./main.js";
+import { r as getDigFormat } from "./popup.js";
 //#region src/components/layout/digcounter/digcounter.js
 function digitsCounter() {
 	function digitsCountersInit(digitsCountersItems) {

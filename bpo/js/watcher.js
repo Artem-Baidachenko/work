@@ -1,4 +1,4 @@
-import { u as uniqArray } from "./main.js";
+import { l as uniqArray } from "./popup.js";
 //#region src/components/effects/watcher/watcher.js
 var ScrollWatcher = class {
 	constructor(props) {

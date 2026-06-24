@@ -1,6 +1,4 @@
-import "./popup.js";
-import { a as getHash, c as slideDown, l as slideUp, r as dataMediaQueries, s as setHash } from "./main.js";
-/* empty css      */
+import { c as slideUp, i as getHash, n as dataMediaQueries, o as setHash, s as slideDown } from "./popup.js";
 /* empty css          */
 import "./more.js";
 /* empty css          */

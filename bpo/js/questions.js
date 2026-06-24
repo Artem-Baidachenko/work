@@ -1,5 +1,4 @@
-import "./main.js";
-/* empty css      */
+import "./popup.js";
 import "./watcher.js";
 /* empty css           */
 /* empty css          */
