@@ -48,9 +48,11 @@
   padding-left: 0.9375rem;
 }
 .hero__wrapper {
+  align-items: stretch;
   margin-bottom: 0.3125rem;
 }
 .hero__slide {
+  min-height: 34.375rem;
   display: flex;
 }
 .hero__slide {
@@ -850,11 +852,14 @@
   }
 }
 @media (width < 48em) {
+  .hero__blockhead {
+    padding-top: 1.25rem;
+  }
   .hero__media {
-    max-height: 100%;
+    height: 100%;
   }
   .hero__image {
-    max-height: 100%;
+    height: 100%;
   }
   .recognitions__button--prev {
     background-color: rgba(237, 237, 237, 0.8);
@@ -935,9 +940,6 @@
   }
   .hero__slide {
     column-gap: 1.875rem;
-  }
-  .hero__blockhead {
-    padding-top: 1.25rem;
   }
   .hero__title {
     font-size: 2rem;
@@ -1085,9 +1087,6 @@
   .hero {
     padding-bottom: clamp( 2.5rem , 1.16666666666875rem  +  6.6666666667vw , 6.875rem );
   }
-  .hero__blockhead {
-    padding-top: clamp( 1.25rem , -0.4642857142875rem  +  8.5714285714vw , 6.875rem );
-  }
   .hero__title {
     font-size: clamp( 2rem , 1.56190476190625rem  +  2.1904761905vw , 3.4375rem );
   }
@@ -1226,6 +1225,11 @@
     column-gap: clamp( 1.875rem , 0.825rem  +  5.25vw , 7.125rem );
   }
 }
+@media (width >= 48em) and (width < 120em) {
+  .hero__blockhead {
+    padding-top: clamp( 1.25rem , 6.25e-8rem  +  2.6041666667vw , 3.125rem );
+  }
+}
 @media (width >= 62em) and (width < 120em) {
   .recognitions__button--next {
     right: clamp( -1.875rem , 2.0043104741375rem  +  -3.2327587284vw , 6.25e-8rem );
@@ -1255,9 +1259,6 @@
   }
   .hero {
     padding-bottom: 6.875rem;
-  }
-  .hero__blockhead {
-    padding-top: 6.875rem;
   }
   .hero__title {
     font-size: 3.4375rem;
@@ -1395,6 +1396,9 @@
 @media (width >= 120em) {
   .hero__slide {
     column-gap: 7.125rem;
+  }
+  .hero__blockhead {
+    padding-top: 3.125rem;
   }
   .recognitions__button--next {
     right: -1.875rem;

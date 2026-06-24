@@ -30,9 +30,6 @@
 .financial .form-contacts__items {
   grid-template-columns: repeat(auto-fit, minmax(min(18.75rem, 100%), 1fr));
 }
-.financial .form-contacts__items:not(:last-child) {
-  margin-bottom: 0.625rem;
-}
 
 .page {
   display: flex;
