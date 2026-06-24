@@ -652,6 +652,8 @@
   padding-top: 1.875rem;
 }
 .popup-details .popup-details__body {
+  visibility: hidden;
+  transform: scale(0);
   transition: transform 0.3s ease 0s, visibility 0.3s ease 0s;
   background-color: #fff;
   border-radius: 0.625rem;
@@ -725,6 +727,8 @@
   padding-top: 1.875rem;
 }
 .popup-contacts .popup-contacts__body {
+  visibility: hidden;
+  transform: scale(0);
   transition: transform 0.3s ease 0s, visibility 0.3s ease 0s;
   background-color: #fff;
   border-radius: 0.625rem;
