@@ -105,7 +105,11 @@ textarea {
 .input-popup-contacts[placeholder]:not([data-fls-placeholder-nohiden]):focus::placeholder {
   opacity: 0;
 }
-
+[data-fls-form-error] {
+	padding-top: 5px;
+	font-size: 14px;
+	color: red;
+}
 textarea.input-popup-contacts {
   resize: vertical;
   padding: 1.0625rem 1.3125rem;
