@@ -70,6 +70,8 @@
 }
 .address-info__text--none::before {
   font-size: 0;
+  width: 0.8125rem;
+  height: auto;
 }
 .address-info__tel {
   display: flex;
@@ -318,6 +320,21 @@
   }
   .contacts-media__name {
     padding: 0.5rem;
+  }
+}
+@media (width < 48em) {
+  .address-info__text::before {
+    width: auto;
+    height: auto;
+    flex: 0 0 auto;
+    font-size: 1rem;
+  }
+  .address-info__email::before {
+    width: auto;
+    height: auto;
+    flex: 0 0 auto;
+    font-size: 1rem;
+    margin-top: -0.25rem;
   }
 }
 @media (width < 34.375em) {

@@ -16,7 +16,7 @@
   background: url("../assets/img/communications/blockhero/decor.webp") left bottom/cover repeat-x;
   position: absolute;
   z-index: -1;
-  bottom: 11.4375rem;
+  bottom: 15.1875rem;
   left: -72%;
   width: 100rem;
   height: 8.375rem;
@@ -261,24 +261,23 @@
 }
 @media (width < 80em) {
   .healthcare .blockhero__container::after {
-    bottom: 10rem;
+    bottom: 12.5rem;
   }
 }
 @media (width < 75.125em) {
   .healthcare .blockhero__container::after {
-    bottom: 8.75rem;
+    bottom: 11.875rem;
   }
 }
 @media (width < 71.25em) {
   .healthcare .blockhero__container::after {
-    bottom: 7.5rem;
     height: 7.5rem;
     left: -85%;
   }
 }
 @media (width < 66.25em) {
   .healthcare .blockhero__container::after {
-    bottom: 6.25rem;
+    bottom: 10.625rem;
   }
 }
 @media (max-width: 62em) {
@@ -326,6 +325,9 @@
   .healthcare .blockhead__title--big {
     font-size: 1.75rem;
   }
+  .healthcare .blockhead__text:not(:last-child) {
+    margin-bottom: 0.9375rem;
+  }
   .healthcare .overview__blockoverview:not(:last-child) {
     margin-bottom: 1.875rem;
   }
@@ -367,6 +369,9 @@
   .healthcare .blockhead__title--big {
     font-size: clamp( 1.75rem , 1.2357142857125rem  +  2.5714285714vw , 3.4375rem );
   }
+  .healthcare .blockhead__text:not(:last-child) {
+    margin-bottom: clamp( 0.9375rem , 0.4422619047625rem  +  2.4761904762vw , 2.5625rem );
+  }
   .healthcare .overview__blockoverview:not(:last-child) {
     margin-bottom: clamp( 1.875rem , 1.13214285714375rem  +  3.7142857143vw , 4.3125rem );
   }
@@ -407,6 +412,9 @@
   }
   .healthcare .blockhead__title--big {
     font-size: 3.4375rem;
+  }
+  .healthcare .blockhead__text:not(:last-child) {
+    margin-bottom: 2.5625rem;
   }
   .healthcare .overview__blockoverview:not(:last-child) {
     margin-bottom: 4.3125rem;

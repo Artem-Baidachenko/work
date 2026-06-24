@@ -16,7 +16,7 @@
   background: url("../assets/img/communications/blockhero/decor.webp") left bottom/cover repeat-x;
   position: absolute;
   z-index: -1;
-  bottom: 14rem;
+  bottom: 240px;
   left: -72%;
   width: 100rem;
   height: 8.375rem;
@@ -268,7 +268,7 @@
 }
 @media (width < 80em) {
   .automation .blockhero__container::after {
-    bottom: 12.5rem;
+    bottom: 13.75rem;
     left: -92%;
   }
 }
