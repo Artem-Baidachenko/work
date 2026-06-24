@@ -17,7 +17,7 @@
   position: absolute;
   z-index: -1;
   bottom: 14rem;
-  left: -82%;
+  left: -72%;
   width: 100rem;
   height: 8.375rem;
 }
@@ -268,7 +268,7 @@
 }
 @media (width < 80em) {
   .automation .blockhero__container::after {
-    bottom: 13.75rem;
+    bottom: 12.5rem;
     left: -92%;
   }
 }
