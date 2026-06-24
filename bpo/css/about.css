@@ -490,6 +490,9 @@
   .info-about__list {
     padding-left: 6.25e-8rem;
   }
+  .team-career__actions {
+    top: 69%;
+  }
   .team-career__button--prev {
     background-color: rgba(237, 237, 237, 0.8);
     color: var(--color-black);
@@ -550,7 +553,12 @@
 }
 @media (width < 30em) {
   .team-career__actions {
-    top: 30%;
+    top: 58%;
+  }
+}
+@media (width < 22.5em) {
+  .team-career__actions {
+    top: 51%;
   }
 }
 @media (width < 20em) {

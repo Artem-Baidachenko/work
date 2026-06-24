@@ -125,14 +125,6 @@
   row-gap: 1.375rem;
   column-gap: 1.875rem;
 }
-.form-contacts__desc {
-  color: #fff;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-.form-contacts__desc:not(:last-child) {
-  margin-bottom: 0.5rem;
-}
 .form-contacts__checkbox .checkbox__input {
   position: absolute;
   width: 0;

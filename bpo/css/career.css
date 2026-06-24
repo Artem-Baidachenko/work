@@ -652,6 +652,8 @@
   padding-top: 1.875rem;
 }
 .popup-details .popup-details__body {
+  visibility: hidden;
+  transform: scale(0);
   transition: transform 0.3s ease 0s, visibility 0.3s ease 0s;
   background-color: #fff;
   border-radius: 0.625rem;
@@ -725,6 +727,8 @@
   padding-top: 1.875rem;
 }
 .popup-contacts .popup-contacts__body {
+  visibility: hidden;
+  transform: scale(0);
   transition: transform 0.3s ease 0s, visibility 0.3s ease 0s;
   background-color: #fff;
   border-radius: 0.625rem;
@@ -790,7 +794,6 @@
 .form-popup-contacts__upload::before {
   font-family: "iconfont";
   content: "\f111";
-  width: 21px;
   color: var(--color-orange);
   transition: color 0.5s;
 }
@@ -850,7 +853,7 @@
 }
 @media (width <= 62em) {
   .reviews__actions {
-    top: 92%;
+    top: 98%;
     margin-inline: 0.0625rem;
   }
 }
@@ -1088,7 +1091,7 @@
     padding-top: 2.5rem;
   }
   .reviews {
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.75rem;
   }
   .reviews__blockhead:not(:last-child) {
     margin-bottom: 1.25rem;
@@ -1270,7 +1273,7 @@
     padding-top: clamp( 2.5rem , 1.3952380952375rem  +  5.5238095238vw , 6.125rem );
   }
   .reviews {
-    padding-bottom: clamp( 2.5rem , 1.5857142857125rem  +  4.5714285714vw , 5.5rem );
+    padding-bottom: clamp( 3.75rem , 3.21666666666875rem  +  2.6666666667vw , 5.5rem );
   }
   .reviews__blockhead:not(:last-child) {
     margin-bottom: clamp( 1.25rem , 1.09761904761875rem  +  0.7619047619vw , 1.75rem );
