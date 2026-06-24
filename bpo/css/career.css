@@ -888,6 +888,9 @@
   .what-we-do__blockhead {
     max-width: 100%;
   }
+  .team-career__actions {
+    top: 75%;
+  }
 }
 @media (max-width: 48em) {
   .what-we-do__media::after {
@@ -946,6 +949,11 @@
     flex: 0 0 3.25rem;
   }
 }
+@media (width < 42em) {
+  .team-career__actions {
+    top: 70%;
+  }
+}
 @media (width <= 40.25em) {
   .what-we-do__item:last-child::before {
     height: 0;
@@ -957,6 +965,9 @@
   }
 }
 @media (width < 34.375em) {
+  .team-career__actions {
+    top: 68%;
+  }
   .card-vacancies__button {
     width: 100%;
   }
@@ -967,13 +978,15 @@
     width: 100%;
   }
 }
+@media (width < 32.5em) {
+  .team-career__actions {
+    top: 65%;
+  }
+}
 @media (width <= 30em) {
   .reviews__button {
     width: 3.375rem;
     height: 3.375rem;
-  }
-  .team-career__actions {
-    top: 50%;
   }
   .team-career__button {
     width: 3.375rem;
@@ -992,9 +1005,19 @@
     padding: 1rem;
   }
 }
+@media (width < 30em) {
+  .team-career__actions {
+    top: 60%;
+  }
+}
 @media (width < 27.0625em) {
   .what-we-do__item::before {
     top: 14%;
+  }
+}
+@media (width < 25.625em) {
+  .team-career__actions {
+    top: 57%;
   }
 }
 @media (width < 24.5em) {
@@ -1002,9 +1025,24 @@
     top: 12%;
   }
 }
+@media (width < 23.75em) {
+  .team-career__actions {
+    top: 54%;
+  }
+}
+@media (width < 21.875em) {
+  .team-career__actions {
+    top: 50%;
+  }
+}
 @media (width < 20.75em) {
   .what-we-do__item::before {
     top: 10%;
+  }
+}
+@media (width < 20.625em) {
+  .team-career__actions {
+    top: 47%;
   }
 }
 @media (width < 20em) {

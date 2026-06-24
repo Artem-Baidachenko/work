@@ -160,6 +160,9 @@ body {
   touch-action: none;
   overscroll-behavior: none;
 }
+[data-fls-loaded] body {
+  transition: all 1s;
+}
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -1153,6 +1156,7 @@ body::after {
   }
   details[open] summary::after {
     transform: rotate(-180deg);
+    top: 0.125rem;
   }
   .icon-menu {
     display: block;

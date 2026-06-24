@@ -480,6 +480,11 @@
     margin-bottom: 1.25rem;
   }
 }
+@media (width <= 48em) {
+  .team-career__actions {
+    top: 75%;
+  }
+}
 @media (width < 48em) {
   .info-about__title {
     font-size: 4.6875rem;
@@ -489,9 +494,6 @@
   }
   .info-about__list {
     padding-left: 6.25e-8rem;
-  }
-  .team-career__actions {
-    top: 69%;
   }
   .team-career__button--prev {
     background-color: rgba(237, 237, 237, 0.8);
@@ -543,7 +545,15 @@
     margin-top: 0.4375rem;
   }
 }
+@media (width < 42em) {
+  .team-career__actions {
+    top: 70%;
+  }
+}
 @media (width < 34.375em) {
+  .team-career__actions {
+    top: 68%;
+  }
   .form-contacts__button {
     width: 100%;
   }
@@ -551,14 +561,34 @@
     width: 100%;
   }
 }
-@media (width < 30em) {
+@media (width < 32.5em) {
   .team-career__actions {
-    top: 58%;
+    top: 65%;
   }
 }
-@media (width < 22.5em) {
+@media (width < 30em) {
   .team-career__actions {
-    top: 51%;
+    top: 60%;
+  }
+}
+@media (width < 25.625em) {
+  .team-career__actions {
+    top: 57%;
+  }
+}
+@media (width < 23.75em) {
+  .team-career__actions {
+    top: 54%;
+  }
+}
+@media (width < 21.875em) {
+  .team-career__actions {
+    top: 50%;
+  }
+}
+@media (width < 20.625em) {
+  .team-career__actions {
+    top: 47%;
   }
 }
 @media (width < 20em) {
