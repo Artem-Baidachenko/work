@@ -57,7 +57,6 @@
   row-gap: 1.25rem;
 }
 .hero__blockhead {
-  padding-top: 6.875rem;
   max-width: 39.0625rem;
 }
 .hero__title {
@@ -797,6 +796,9 @@
 }
 @media (width < 62em) {
   .hero__bottom {
+    margin-top: 6.25e-8rem;
+  }
+  .hero__bottom {
     position: relative;
     margin-top: 0;
   }
@@ -938,6 +940,9 @@
   .hero__slide {
     column-gap: 1.875rem;
   }
+  .hero__blockhead {
+    padding-top: 1.25rem;
+  }
   .hero__title {
     font-size: 2rem;
   }
@@ -952,9 +957,6 @@
   }
   .hero__media {
     height: 6.25rem;
-  }
-  .hero__bottom {
-    margin-top: 6.25e-8rem;
   }
   .about {
     padding-bottom: 2.5rem;
@@ -1090,6 +1092,9 @@
   .hero {
     padding-bottom: clamp( 2.5rem , 1.16666666666875rem  +  6.6666666667vw , 6.875rem );
   }
+  .hero__blockhead {
+    padding-top: clamp( 1.25rem , -0.4642857142875rem  +  8.5714285714vw , 6.875rem );
+  }
   .hero__title {
     font-size: clamp( 2rem , 1.56190476190625rem  +  2.1904761905vw , 3.4375rem );
   }
@@ -1104,9 +1109,6 @@
   }
   .hero__media {
     height: clamp( 6.25rem , -2.32142857143125rem  +  42.8571428571vw , 34.375rem );
-  }
-  .hero__bottom {
-    margin-top: clamp( -4.375rem , 1.33333341488125rem  +  -6.6666667619vw , 6.25e-8rem );
   }
   .about {
     padding-bottom: clamp( 2.5rem , 1.33809523809375rem  +  5.8095238095vw , 6.3125rem );
@@ -1235,6 +1237,9 @@
   }
 }
 @media (width >= 62em) and (width < 120em) {
+  .hero__bottom {
+    margin-top: clamp( -4.375rem , 4.67672426724375rem  +  -7.543103556vw , 6.25e-8rem );
+  }
   .recognitions__button--next {
     right: clamp( -1.875rem , 2.0043104741375rem  +  -3.2327587284vw , 6.25e-8rem );
   }
@@ -1264,6 +1269,9 @@
   .hero {
     padding-bottom: 6.875rem;
   }
+  .hero__blockhead {
+    padding-top: 6.875rem;
+  }
   .hero__title {
     font-size: 3.4375rem;
   }
@@ -1278,9 +1286,6 @@
   }
   .hero__media {
     height: 34.375rem;
-  }
-  .hero__bottom {
-    margin-top: -4.375rem;
   }
   .about {
     padding-bottom: 6.3125rem;
@@ -1406,6 +1411,9 @@
 @media (width >= 120em) {
   .hero__slide {
     column-gap: 7.125rem;
+  }
+  .hero__bottom {
+    margin-top: -4.375rem;
   }
   .recognitions__button--next {
     right: -1.875rem;
