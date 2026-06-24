@@ -680,8 +680,8 @@
   position: fixed;
   width: 2.8125rem;
   height: 2.8125rem;
-  top: 1.25rem;
-  right: 1.25rem;
+  top: 0.9375rem;
+  right: 1.5625rem;
 }
 .popup-details__item {
   display: flex;
@@ -742,8 +742,8 @@
   position: fixed;
   width: 2.8125rem;
   height: 2.8125rem;
-  top: 1.25rem;
-  right: 1.25rem;
+  top: 0.9375rem;
+  right: 1.5625rem;
 }
 .popup-contacts__top {
   display: flex;
