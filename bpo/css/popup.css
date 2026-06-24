@@ -160,6 +160,9 @@ body {
   touch-action: none;
   overscroll-behavior: none;
 }
+[data-fls-loaded] body {
+  transition: all 1s;
+}
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -804,11 +807,6 @@ textarea {
 .input.--form-error .input {
   outline: 0.0625rem solid red;
 }
-.input [data-fls-form-error] {
-  padding-top: 0.3125rem;
-  font-size: 0.875rem;
-  color: red;
-}
 
 .input-popup {
   border-radius: 0.75rem;
@@ -824,11 +822,6 @@ textarea {
 .input-popup.--form-error {
   outline: 0.0625rem solid red;
 }
-.input-popup [data-fls-form-error] {
-  padding-top: 0.3125rem;
-  font-size: 0.875rem;
-  color: red;
-}
 
 .input-popup-feedback {
   border-radius: 0.75rem;
@@ -845,11 +838,6 @@ textarea {
 .input-popup-feedback.--form-error {
   outline: 0.0625rem solid red;
 }
-.input-popup-feedback [data-fls-form-error] {
-  padding-top: 0.3125rem;
-  font-size: 0.875rem;
-  color: red;
-}
 
 .input-popup-feedback {
   border-radius: 0.75rem;
@@ -865,11 +853,6 @@ textarea {
 }
 .input-popup-feedback.--form-error {
   outline: 0.0625rem solid red;
-}
-.input-popup-feedback [data-fls-form-error] {
-  padding-top: 0.3125rem;
-  font-size: 0.875rem;
-  color: red;
 }
 
 .input-popup-contacts {
@@ -887,11 +870,6 @@ textarea {
 }
 .input-popup-contacts.--form-error {
   outline: 0.0625rem solid red;
-}
-.input-popup-contacts [data-fls-form-error] {
-  padding-top: 0.3125rem;
-  font-size: 0.875rem;
-  color: red;
 }
 
 .input[placeholder]:not([data-fls-placeholder-nohiden])::placeholder {
@@ -927,6 +905,12 @@ textarea {
 }
 .input-popup-contacts[placeholder]:not([data-fls-placeholder-nohiden]):focus::placeholder {
   opacity: 0;
+}
+
+[data-fls-form-error] {
+  padding-top: 0.3125rem;
+  font-size: 0.875rem;
+  color: red;
 }
 
 textarea.input-popup-contacts {

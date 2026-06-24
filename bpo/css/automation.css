@@ -13,13 +13,13 @@
 }
 .automation .blockhero__container::after {
   content: "";
-  background: url("../assets/img/communications/blockhero/decor.webp") left bottom/100% repeat-x;
+  background: url("../assets/img/communications/blockhero/decor.webp") left bottom/cover repeat-x;
   position: absolute;
   z-index: -1;
-  bottom: 15rem;
-  left: -42%;
+  bottom: 15.625rem;
+  left: -82%;
   width: 100rem;
-  height: 100%;
+  height: 8.375rem;
 }
 .automation .blockhead__title--big {
   max-width: 29.9375rem;
@@ -279,12 +279,15 @@
 }
 @media (width < 80em) {
   .automation .blockhero__container::after {
-    bottom: 15.625rem;
+    bottom: 13.75rem;
+    left: -92%;
   }
 }
 @media (width < 71.25em) {
   .automation .blockhero__container::after {
-    bottom: 13.75rem;
+    bottom: 12.5rem;
+    height: 7.5rem;
+    left: -74%;
   }
 }
 @media (max-width: 62em) {

@@ -735,9 +735,6 @@
   .info-about__title {
     font-size: clamp( 4.6875rem , 1.77083333333125rem  +  6.0763888889vw , 9.0625rem );
   }
-  .title-vision {
-    font-size: clamp( 4.6875rem , 1.77083333333125rem  +  6.0763888889vw , 7.8125rem );
-  }
   .info-about__list {
     padding-left: clamp( 6.25e-8rem , -1.4166665625rem  +  2.9513888021vw , 2.125rem );
   }
