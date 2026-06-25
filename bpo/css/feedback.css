@@ -10,7 +10,7 @@
 }
 .popup-feedback .popup-feedback__body {
   width: 100%;
-  max-width: 58.875rem;
+  max-width: 42rem;
 }
 .popup-feedback .popup-feedback__body {
   transition: transform 0.3s ease 0s, visibility 0.3s ease 0s;
