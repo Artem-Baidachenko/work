@@ -61,6 +61,12 @@
   margin-bottom: 0.3125rem;
 }
 .address-info__text::before {
+  content: "";
+  flex-basis: 1.125rem;
+  flex-shrink: 0;
+  aspect-ratio: 1;
+}
+.address-info__text--map::before {
   font-family: "iconfont";
   content: "\f109";
   width: 1.125rem;
@@ -100,10 +106,16 @@
   line-height: 1.5;
 }
 .address-info__email::before {
+  content: "";
+  flex-basis: 1.125rem;
+  flex-shrink: 0;
+  aspect-ratio: 1;
   margin-right: 0.6875rem;
-  display: flex;
+}
+.address-info__email--email::before {
   font-family: "iconfont";
   content: "\f106";
+  display: flex;
   width: 1.125rem;
   height: 1.125rem;
   flex: 0 0 1.125rem;
@@ -343,14 +355,7 @@
 }
 @media (width < 48em) {
   .address-info__text {
-    gap: 0.9375rem;
-  }
-  .address-info__text::before {
-    width: auto;
-    height: auto;
-    flex: 0 0 auto;
-    font-size: 1rem;
-    margin-top: 0rem;
+    gap: 0.625rem;
   }
   .address-info__text {
     align-items: flex-start;
