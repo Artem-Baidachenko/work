@@ -515,7 +515,10 @@
 }
 @media (width < 47.9375rem){
   .address-info__tel::before {
-    padding-top: 0;
+    margin-top: -5px;
+  } 
+  .address-info__text::before {
+    margin-top: 3px;
   } 
 }
 @media (width >= 85.625em) {
