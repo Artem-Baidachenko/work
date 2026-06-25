@@ -1363,6 +1363,10 @@ body::after {
   .social-footer {
     justify-content: center;
   }
+  [data-fls-popup-close] {
+    right: 1.25rem;
+    top: 1.25rem;
+  }
 }
 
 @media (width < 43.75em){

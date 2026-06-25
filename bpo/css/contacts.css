@@ -47,7 +47,8 @@
 }
 .address-info__text {
   display: flex;
-  gap: 0.6875rem;
+  align-items: center;
+  gap: 0.625rem;
   font-weight: 500;
 }
 .address-info__text {
@@ -66,6 +67,7 @@
   height: 1.125rem;
   flex: 0 0 1.125rem;
   font-size: 1.125rem;
+  margin-top: -0.3125rem;
   color: var(--color-orange);
 }
 .address-info__text--none::before {
@@ -92,13 +94,14 @@
 }
 .address-info__email {
   display: flex;
-  gap: 0.6875rem;
   font-weight: 500;
 }
 .address-info__email {
   line-height: 1.5;
 }
 .address-info__email::before {
+  margin-right: 0.6875rem;
+  display: flex;
   font-family: "iconfont";
   content: "\f106";
   width: 1.125rem;
@@ -242,6 +245,22 @@
 .popup__title:not(:last-child) {
   margin-bottom: 1.25rem;
 }
+.popup .popup__close {
+  width: 0.875rem;
+  height: 0.875rem;
+  z-index: 2;
+}
+.popup .popup__close::after {
+  z-index: -1;
+  content: "";
+  background-color: #e9e9e9;
+  border-radius: 50%;
+  position: fixed;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  top: 0.9375rem;
+  right: 1.5625rem;
+}
 .form-popup__items:not(:last-child) {
   margin-bottom: 1.5625rem;
 }
@@ -323,11 +342,18 @@
   }
 }
 @media (width < 48em) {
+  .address-info__text {
+    gap: 0.9375rem;
+  }
   .address-info__text::before {
     width: auto;
     height: auto;
     flex: 0 0 auto;
     font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .address-info__text {
+    align-items: flex-start;
   }
   .address-info__email::before {
     width: auto;
@@ -335,6 +361,12 @@
     flex: 0 0 auto;
     font-size: 1rem;
     margin-top: -0.25rem;
+  }
+  .popup .popup__close::after {
+    width: 2rem;
+    height: 2rem;
+    top: 0.6875rem;
+    right: 0.6875rem;
   }
 }
 @media (width < 34.375em) {

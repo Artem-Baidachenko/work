@@ -16,7 +16,7 @@
   background: url("../assets/img/communications/blockhero/decor.webp") left bottom/cover repeat-x;
   position: absolute;
   z-index: -1;
-  bottom: 240px;
+  bottom: 15.625rem;
   left: -72%;
   width: 100rem;
   height: 8.375rem;
@@ -194,6 +194,22 @@
 .popup__title:not(:last-child) {
   margin-bottom: 1.25rem;
 }
+.popup .popup__close {
+  width: 0.875rem;
+  height: 0.875rem;
+  z-index: 2;
+}
+.popup .popup__close::after {
+  z-index: -1;
+  content: "";
+  background-color: #e9e9e9;
+  border-radius: 50%;
+  position: fixed;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  top: 0.9375rem;
+  right: 1.5625rem;
+}
 .form-popup__items:not(:last-child) {
   margin-bottom: 1.5625rem;
 }
@@ -302,6 +318,14 @@
   }
   .automation .blockhero__container::after {
     display: none;
+  }
+}
+@media (width < 48em) {
+  .popup .popup__close::after {
+    width: 2rem;
+    height: 2rem;
+    top: 0.6875rem;
+    right: 0.6875rem;
   }
 }
 @media (width < 34.375em) {
