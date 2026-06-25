@@ -824,14 +824,14 @@
 .asidelinks {
   display: inline-flex;
   position: sticky;
-  top: 9rem;
+  top: 10rem;
   flex-direction: column;
   height: 100%;
   padding: 1.25rem 1.5625rem;
   width: 20rem;
   border-radius: 0.9375rem;
   background-color: #fff;
-  margin-bottom: 1.25rem;
+  margin-bottom: 5.5rem;
   box-shadow: 0.3125rem 1rem 2.5625rem 0 rgba(98, 87, 87, 0.25);
 }
 .asidelinks__title {
@@ -886,8 +886,9 @@
 }
 @media (max-width: 62em) {
   .asidelinks {
+    margin-bottom: 1.25rem;
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     top: 0;
     margin-top: 0rem;
