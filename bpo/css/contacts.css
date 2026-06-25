@@ -76,6 +76,9 @@
   margin-top: -0.3125rem;
   color: var(--color-orange);
 }
+.address-info__text--map-1::before {
+  margin-top: -6px;
+}
 .address-info__text--none::before {
   font-size: 0;
   width: 0.8125rem;
@@ -517,8 +520,11 @@
   .address-info__tel::before {
     margin-top: -0.3125rem;
   } 
-  .address-info__text::before {
+  .address-info__text--map-1::before {
     margin-top: -0.0625rem;
+  } 
+  .address-info__text--map-2::before {
+    margin-top: 0;
   } 
 }
 @media (width >= 85.625em) {
