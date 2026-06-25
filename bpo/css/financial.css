@@ -269,9 +269,14 @@
   text-align: center;
   justify-content: center;
 }
+@media (width < 81.125em) {
+  .financial .blockhero__container::after {
+    bottom: 10rem;
+  }
+}
 @media (width < 80em) {
   .financial .blockhero__container::after {
-    bottom: 11.25rem;
+    bottom: 9.75rem;
     left: -92%;
   }
 }
