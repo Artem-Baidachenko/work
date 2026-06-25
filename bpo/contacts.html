@@ -5,15 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Contact Us</title>
-		<script type="module" crossorigin="" src="./js/contacts.js?v=1782224528539"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1782224528539">
-		<link rel="modulepreload" crossorigin="" href="./js/popup.js?v=1782224528539">
-		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1782224528539">
-		<link rel="stylesheet" crossorigin="" href="./css/popup.css?v=1782224528539">
-		<link rel="stylesheet" crossorigin="" href="./css/contacts.css?v=1782224528539">
-		<link rel="stylesheet" crossorigin="" href="./css/blockhead.css?v=1782224528539">
-		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1782224528539">
-		<link rel="stylesheet" crossorigin="" href="./css/input.css?v=1782224528539">
+		<script type="module" crossorigin="" src="./js/contacts.js?v=1782374372414"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/popup.js?v=1782374372414">
+		<link rel="stylesheet" crossorigin="" href="./css/popup.css?v=1782374372414">
+		<link rel="stylesheet" crossorigin="" href="./css/contacts.css?v=1782374372414">
+		<link rel="stylesheet" crossorigin="" href="./css/blockhead.css?v=1782374372414">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumb.css?v=1782374372414">
 		<link rel="preload" as="style" href="./css/webfonts.css">
 		<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="./css/webfonts.css">
 	</head>
@@ -192,12 +189,16 @@
 												<p>Адреса: 2 V. Velykogo st., Lviv, 79026</p>
 											</div>
 											<div class="address-info__tel">
-												Телефон:
-												<a href="tel:+380631882866" class="address-info__link-tel">+38 063 188 28 66</a>
+												<p>
+													Телефон:
+													<a href="tel:+380631882866" class="address-info__link-tel">+38 063 188 28 66</a>
+												</p>
 											</div>
 											<div class="address-info__email">
-												Email:
-												<a href="mailto:info@bponextdoor.com" class="address-info__link-email">info@bponextdoor.com</a>
+												<p>
+													Email:
+													<a href="mailto:info@bponextdoor.com" class="address-info__link-email">info@bponextdoor.com</a>
+												</p>
 											</div>
 										</div>
 									</div>
@@ -211,8 +212,10 @@
 												<p>Rejtana al., Rzeszów, 35-310</p>
 											</div>
 											<div class="address-info__email">
-												Email:
-												<a href="mailto:info@bponextdoor.com" class="address-info__link-email">info@bponextdoor.com</a>
+												<p>
+													Email:
+													<a href="mailto:info@bponextdoor.com" class="address-info__link-email">info@bponextdoor.com</a>
+												</p>
 											</div>
 										</div>
 									</div>
@@ -246,19 +249,26 @@
 							<form data-fls-form="" action="#" class="touch-contacts__form form-contacts" method="POST">
 								<div class="form-contacts__items">
 									<div class="form-contacts__line">
-										<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Check that the form is filled out correctly" placeholder="Your Name" class="input" required>
+										<input data-fls-input="" autocomplete="off" type="text" name="form[]" data-fls-form-errtext="Помилка" placeholder="Your Name" class="input" required>
 									</div>
 									<div class="form-contacts__line">
 										<input data-fls-input="" autocomplete="off" type="text" name="form[]" placeholder="Company Name" class="input">
 									</div>
 									<div class="form-contacts__line">
-										<input data-fls-input="" autocomplete="off" type="text" name="form[email]" placeholder="Email" data-fls-form-errtext="Check that the form is filled out correctly" class="input" required>
+										<input data-fls-input="" autocomplete="off" type="text" name="form[email]" placeholder="Email" data-fls-form-errtext="Помилка" class="input" required>
 									</div>
 									<div class="form-contacts__line">
-										<input data-fls-input autocomplete="off" type="text" name="form[]" placeholder="Country" class="input">
+										<div class="form-contacts__select">
+											<select name="form[]" data-fls-select="" data-fls-select-modif="form">
+												<option value="1" selected>Country</option>
+												<option value="2">Ukraine</option>
+												<option value="3">Poland</option>
+												<option value="4">Germany</option>
+											</select>
+										</div>
 									</div>
 									<div class="form-contacts__line">
-										<input data-fls-input="" data-fls-input-mask="+38(999) 999-9999" autocomplete="off" type="tel" name="form[tel]" data-fls-form-errtext="Check that the form is filled out correctly" placeholder="Phone" class="input" required>
+										<input data-fls-input="" data-fls-input-mask="+38(999) 999-9999" autocomplete="off" type="tel" name="form[tel]" data-fls-form-errtext="Помилка" placeholder="Phone" class="input" required>
 									</div>
 									<div class="form-contacts__line">
 										<input data-fls-input="" autocomplete="off" type="text" name="form[]" placeholder="Additional Information" class="input">
@@ -266,7 +276,7 @@
 								</div>
 								<div class="form-contacts__chk">
 									<label data-fls-checkbox="" class="form-contacts__checkbox checkbox">
-										<input class="checkbox__input" type="checkbox" value="1" name="form[]">
+										<input data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
 										<span class="checkbox__text checkbox__text--white">
 											I give my consent for BPO Nextdoor to process my personal data in the interest of providing me with appropriate answer to my inquiry
 										</span>
@@ -286,7 +296,7 @@
 						<div class="footer__info">
 							<a href="index.html" class="footer__logo">
 								<picture>
-									<img alt="Logo" src="./assets/img/logo-footer.png">
+									<img alt="Logo" src="./assets/img/logo-footer.webp">
 								</picture>
 							</a>
 							<div class="footer__text">
