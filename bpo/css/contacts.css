@@ -518,7 +518,7 @@
     margin-top: -0.3125rem;
   } 
   .address-info__text::before {
-    margin-top: 0.0313rem;
+    margin-top: -0.0625rem;
   } 
 }
 @media (width >= 85.625em) {
